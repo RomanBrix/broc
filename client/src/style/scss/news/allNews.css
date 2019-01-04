@@ -1,0 +1,263 @@
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+.intro {
+  min-height: calc(80vh - 150px);
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; }
+  .intro .left, .intro .right {
+    width: 47%; }
+  .intro .left h2 {
+    font-weight: 500;
+    line-height: 52px;
+    font-size: 41px;
+    font-family: "Ubuntu-Medium";
+    color: #FFFFFF; }
+  .intro .left .box .checkboxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; }
+    .intro .left .box .checkboxes .check {
+      margin-bottom: 15px; }
+      .intro .left .box .checkboxes .check input {
+        display: none; }
+      .intro .left .box .checkboxes .check label {
+        cursor: pointer;
+        position: relative;
+        margin: auto;
+        width: 18px;
+        height: 18px;
+        -webkit-tap-highlight-color: transparent;
+        transform: translate3d(0, 0, 0); }
+        .intro .left .box .checkboxes .check label:before {
+          content: "";
+          position: absolute;
+          top: -10px;
+          left: -11px;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          background: rgba(255, 255, 255, 0.08);
+          opacity: 0;
+          transition: opacity .2s ease; }
+        .intro .left .box .checkboxes .check label svg {
+          margin-bottom: -4px;
+          margin-right: 15px;
+          position: relative;
+          z-index: 1;
+          fill: none;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke: #C8CCD4;
+          stroke-width: 1.5;
+          transform: translate3d(0, 0, 0);
+          transition: all .2s ease; }
+          .intro .left .box .checkboxes .check label svg path {
+            stroke-dasharray: 60;
+            stroke-dashoffset: 0; }
+          .intro .left .box .checkboxes .check label svg polyline {
+            stroke-dasharray: 22;
+            stroke-dashoffset: 66; }
+        .intro .left .box .checkboxes .check label:hover:before {
+          opacity: 1; }
+        .intro .left .box .checkboxes .check label:hover svg {
+          stroke: #4285F4; }
+      .intro .left .box .checkboxes .check input:checked + label svg {
+        stroke: #4285F4; }
+      .intro .left .box .checkboxes .check input:checked + label path {
+        stroke-dashoffset: 60;
+        transition: all .3s linear; }
+      .intro .left .box .checkboxes .check input:checked + label polyline {
+        stroke-dashoffset: 42;
+        transition: all .2s linear;
+        transition-delay: .15s; }
+  .intro .left .box .search {
+    flex: 90%;
+    width: 90%;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 40px;
+    position: relative;
+    margin-bottom: 40px; }
+    .intro .left .box .search input {
+      background: transparent;
+      padding: 10px 30px 10px 16px;
+      box-sizing: border-box;
+      border: 0px solid transparent;
+      font-style: normal;
+      font-weight: normal;
+      line-height: normal;
+      width: 100%;
+      font-size: 16px;
+      font-family: "Ubuntu-Regular";
+      color: white;
+      outline: 0;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.6); }
+      .intro .left .box .search input::placeholder {
+        font-size: 16px;
+        color: white;
+        opacity: 0;
+        transition: .25s; }
+      .intro .left .box .search input:active, .intro .left .box .search input:focus {
+        border-bottom: 2px solid white; }
+        .intro .left .box .search input:active::placeholder, .intro .left .box .search input:focus::placeholder {
+          font-size: 16px;
+          color: white;
+          opacity: 0.7; }
+    .intro .left .box .search label {
+      position: absolute;
+      transition: .25s;
+      font-size: 16px;
+      cursor: text;
+      left: 15px;
+      top: 10px;
+      opacity: .8; }
+    .intro .left .box .search .label-active {
+      left: 0px;
+      top: -15px;
+      cursor: pointer;
+      font-size: 14px; }
+  .intro .right {
+    position: relative; }
+    .intro .right .dots {
+      position: absolute;
+      right: 40%;
+      top: 20px; }
+    .intro .right h1 {
+      font-weight: 500;
+      line-height: 52px;
+      font-size: 41px;
+      font-family: "Ubuntu-Medium";
+      color: #FFFFFF; }
+    .intro .right .intro-news .intro-article-news {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      margin-bottom: 40px;
+      transition: .25s;
+      cursor: pointer; }
+      .intro .right .intro-news .intro-article-news .top {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 8px; }
+        .intro .right .intro-news .intro-article-news .top .tag {
+          padding: 6px 16px;
+          font-family: "Ubuntu-Medium";
+          background: #134DAB;
+          border-radius: 5px;
+          color: white;
+          font-weight: 500;
+          line-height: normal;
+          font-size: 12px;
+          letter-spacing: 0.5px; }
+        .intro .right .intro-news .intro-article-news .top .date {
+          font-style: normal;
+          font-weight: normal;
+          line-height: normal;
+          font-size: 12px;
+          letter-spacing: 0.5px;
+          color: #FFFFFF;
+          margin-left: 12px; }
+      .intro .right .intro-news .intro-article-news .title {
+        line-height: 30px;
+        font-size: 18px;
+        color: #FFFFFF; }
+      .intro .right .intro-news .intro-article-news:hover {
+        transform: scale(1.01); }
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 50px 0; }
+  .container .article-news {
+    max-width: 30%;
+    flex: 30%;
+    width: 30%;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 35px;
+    color: black;
+    cursor: pointer;
+    transition: .25s;
+    overflow: hidden; }
+    .container .article-news .img {
+      width: 100%;
+      height: 300px;
+      background: rgba(224, 224, 224, 0.6) no-repeat center 0;
+      background-size: cover;
+      transition: .55s;
+      position: relative;
+      z-index: 1; }
+    .container .article-news .content {
+      box-sizing: border-box;
+      padding: 25px 30px;
+      transition: .25s;
+      position: relative;
+      z-index: 2;
+      background: white; }
+      .container .article-news .content .top {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 8px;
+        transition: .25s; }
+        .container .article-news .content .top .tag {
+          padding: 6px 16px;
+          font-family: "Ubuntu-Medium";
+          background: #134DAB;
+          border-radius: 5px;
+          color: white;
+          font-weight: 500;
+          line-height: normal;
+          font-size: 12px;
+          letter-spacing: 0.5px;
+          transition: .25s; }
+        .container .article-news .content .top .date {
+          font-style: normal;
+          font-weight: normal;
+          line-height: normal;
+          font-size: 12px;
+          letter-spacing: 0.5px;
+          color: #333333;
+          margin-left: 12px;
+          font-family: "Ubuntu-Light";
+          transition: .25s; }
+      .container .article-news .content .title {
+        font-weight: 500;
+        line-height: 28px;
+        font-size: 20px;
+        color: #333333;
+        font-family: "Ubuntu-Medium";
+        margin-top: 25px;
+        transition: .25s; }
+      .container .article-news .content p {
+        font-style: normal;
+        font-weight: normal;
+        line-height: 24px;
+        font-size: 16px;
+        color: #999999;
+        font-family: "Ubuntu-Regular";
+        transition: .25s; }
+    .container .article-news:hover .img {
+      transform: scale(1.15); }

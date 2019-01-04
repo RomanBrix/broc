@@ -1,0 +1,133 @@
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 50px 100px 25px;
+  background: #151532;
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.03);
+  color: white; }
+  .footer .width-layer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%; }
+    .footer .width-layer .footer-container {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      box-sizing: border-box;
+      position: relative; }
+      .footer .width-layer .footer-container .logo {
+        position: relative;
+        font-family: "Catamaran-Bold";
+        font-style: normal;
+        line-height: 41px;
+        font-size: 30px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: #FFFFFF; }
+        .footer .width-layer .footer-container .logo a {
+          color: inherit;
+          text-decoration: none; }
+          .footer .width-layer .footer-container .logo a .dots {
+            position: absolute;
+            left: -50px; }
+      .footer .width-layer .footer-container .links ul {
+        padding: 0;
+        list-style: none; }
+        .footer .width-layer .footer-container .links ul li {
+          line-height: 21px;
+          font-size: 14px;
+          color: #FFFFFF;
+          opacity: 0.7;
+          margin-bottom: 20px; }
+          .footer .width-layer .footer-container .links ul li a {
+            text-decoration: none;
+            color: inherit; }
+      .footer .width-layer .footer-container .more-info ul {
+        padding: 0;
+        list-style: none; }
+        .footer .width-layer .footer-container .more-info ul li {
+          line-height: 21px;
+          font-size: 14px;
+          color: #FFFFFF;
+          opacity: 0.7;
+          margin-bottom: 20px; }
+          .footer .width-layer .footer-container .more-info ul li:first-child {
+            text-transform: uppercase; }
+          .footer .width-layer .footer-container .more-info ul li a {
+            text-decoration: none;
+            color: inherit; }
+      .footer .width-layer .footer-container .more-documents ul {
+        padding: 0;
+        list-style: none; }
+        .footer .width-layer .footer-container .more-documents ul li {
+          line-height: 21px;
+          font-size: 14px;
+          color: #FFFFFF;
+          opacity: 0.7;
+          margin-bottom: 20px; }
+          .footer .width-layer .footer-container .more-documents ul li:first-child {
+            text-transform: uppercase; }
+          .footer .width-layer .footer-container .more-documents ul li a {
+            text-decoration: none;
+            color: #FFFFFF;
+            transition: .25s; }
+            .footer .width-layer .footer-container .more-documents ul li a:hover {
+              color: white; }
+      .footer .width-layer .footer-container .socials ul {
+        list-style: none;
+        padding: 0;
+        color: #ACACAC; }
+        .footer .width-layer .footer-container .socials ul > li ol {
+          list-style: none;
+          padding: 0;
+          margin-top: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start; }
+          .footer .width-layer .footer-container .socials ul > li ol li {
+            margin-right: 35px;
+            transition: .25s;
+            cursor: pointer;
+            font-size: 1.4em; }
+            .footer .width-layer .footer-container .socials ul > li ol li:last-child {
+              margin-right: 0; }
+            .footer .width-layer .footer-container .socials ul > li ol li:first-child {
+              margin-left: 2px; }
+            .footer .width-layer .footer-container .socials ul > li ol li:hover {
+              color: white; }
+      .footer .width-layer .footer-container:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        background: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.1;
+        height: 1px;
+        bottom: 0;
+        left: 0; }
+    .footer .width-layer .copyright-container {
+      margin-top: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ACACAC;
+      mix-blend-mode: normal;
+      opacity: 0.5; }
+      .footer .width-layer .copyright-container i {
+        margin-bottom: -2px;
+        margin-right: 5px; }

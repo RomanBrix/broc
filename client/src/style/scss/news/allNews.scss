@@ -1,0 +1,349 @@
+@import "../vars.scss";
+
+.intro{
+  //background:  rgba(17, 36, 145, 1) no-repeat center 0px;
+  //background-size: cover;
+  min-height: calc(80vh - 150px);
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  .left, .right{
+    width: 47%;
+  }
+  .left{
+    h2{
+      font-weight: 500;
+      line-height: 52px;
+      font-size: 41px;
+      font-family: $Ubuntu-Medium;
+      color: #FFFFFF;
+    }
+    .box{
+      .checkboxes{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+        .check {
+          margin-bottom: 15px;
+          input {
+            display: none;
+          }
+          label{
+            cursor: pointer;
+            position: relative;
+            margin: auto;
+            width: 18px;
+            height: 18px;
+            -webkit-tap-highlight-color: transparent;
+            transform: translate3d(0,0,0);
+
+            &:before{
+              content: "";
+              position: absolute;
+              //top: -15px;
+              //left: -15px;
+              //width: 48px;
+              //height: 48px;
+              //border-radius: 50%;
+              //background: rgba(#223254,.03);
+              //background: rgba(255, 235, 87, .1);
+              top: -10px;
+              left: -11px;
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              background: rgba(255, 255, 255, .08);
+              opacity: 0;
+              transition: opacity .2s ease;
+            }
+
+            svg{
+              margin-bottom: -4px;
+              margin-right: 15px;
+              position: relative;
+              z-index: 1;
+              fill: none;
+              stroke-linecap: round;
+              stroke-linejoin: round;
+              stroke: #C8CCD4;
+              stroke-width: 1.5;
+              transform: translate3d(0,0,0);
+              transition: all .2s ease;
+
+              path{
+                stroke-dasharray: 60;
+                stroke-dashoffset: 0;
+              }
+              polyline {
+                stroke-dasharray: 22;
+                stroke-dashoffset: 66;
+              }
+            }
+            &:hover {
+              &:before {
+                opacity: 1;
+              }
+                svg{
+                  stroke: #4285F4;
+                }
+            }
+          }
+
+          input:checked + label{
+            svg{
+              stroke: #4285F4
+            }
+            path {
+              stroke-dashoffset: 60;
+              transition: all .3s linear;
+            }
+            polyline {
+              stroke-dashoffset: 42;
+              transition: all .2s linear;
+              transition-delay: .15s;
+            }
+          }
+        }
+      }
+      .search{
+        flex: 90%;
+        width: 90%;
+        max-width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 40px;
+        position: relative;
+        margin-bottom: 40px;
+        input {
+          background: transparent;
+          padding: 10px 30px 10px 16px;
+          box-sizing: border-box;
+          border: 0px solid transparent;
+          font-style: normal;
+          font-weight: normal;
+          line-height: normal;
+          width: 100%;
+          font-size: 16px;
+          font-family: $Ubuntu-Regular;
+          color: white;
+          outline: 0;
+          border-bottom: 2px solid rgba(255, 255, 255, .6);
+
+          &::placeholder {
+            font-size: 16px;
+            color: white;
+            opacity: 0;
+            transition: .25s;
+          }
+          &:active, &:focus {
+            border-bottom: 2px solid rgba(255, 255, 255, 1);
+            &::placeholder {
+              font-size: 16px;
+              //color: rgba(0, 3, 128, 0.44);
+              color: white;
+              opacity: 0.7;
+            }
+          }
+        }
+        label{
+          position: absolute;
+          transition: .25s;
+          font-size: 16px;
+          cursor: text;
+          left: 15px;
+          top: 10px;
+          opacity: .8;
+        }
+        .label-active{
+          left: 0px;
+          top: -15px;
+          cursor: pointer;
+          font-size: 14px;
+        }
+
+      }
+    }
+  }
+  .right{
+    position: relative;
+    .dots{
+      position: absolute;
+      right: 40%;
+      top: 20px;
+    }
+    h1{
+      font-weight: 500;
+      line-height: 52px;
+      font-size: 41px;
+      font-family: $Ubuntu-Medium;
+      color: #FFFFFF;
+
+    }
+
+    .intro-news{
+      .intro-article-news{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-bottom: 40px;
+        transition: .25s;
+        cursor: pointer;
+        .top{
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          margin-bottom: 8px;
+          .tag{
+            padding: 6px 16px;
+            font-family: $Ubuntu-Medium;
+            background: #134DAB;
+            border-radius: 5px;
+            color: white;
+            font-weight: 500;
+            line-height: normal;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+          }
+          .date{
+            font-style: normal;
+            font-weight: normal;
+            line-height: normal;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+            color: #FFFFFF;
+            margin-left: 12px;
+          }
+        }
+        .title{
+          line-height: 30px;
+          font-size: 18px;
+          color: #FFFFFF;
+        }
+
+        &:hover{
+          transform: scale(1.01);
+        }
+      }
+    }
+  }
+}
+
+
+.container{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 50px 0;
+
+  .article-news {
+    max-width: 30%;
+    flex: 30%;
+    width: 30%;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 35px;
+    color: black;
+    cursor: pointer;
+    transition: .25s;
+    overflow: hidden;
+
+    .img {
+      width: 100%;
+      height: 300px;
+      //background:  rgba(17, 36, 145, 1) no-repeat center center;
+      background: rgba(224, 224, 224, .6) no-repeat center 0;
+      //background-size: contain;
+      background-size: cover;
+      transition: .55s;
+      position: relative;
+      z-index: 1;
+
+    }
+    .content {
+      box-sizing: border-box;
+      padding: 25px 30px;
+      transition: .25s;
+      position: relative;
+      z-index: 2;
+      background: white;
+
+      .top {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 8px;
+        transition: .25s;
+
+        //margin-top: 25px;
+        .tag {
+          padding: 6px 16px;
+          font-family: $Ubuntu-Medium;
+          background: #134DAB;
+          border-radius: 5px;
+          color: white;
+          font-weight: 500;
+          line-height: normal;
+          font-size: 12px;
+          letter-spacing: 0.5px;
+          transition: .25s;
+
+        }
+        .date {
+          font-style: normal;
+          font-weight: normal;
+          line-height: normal;
+          font-size: 12px;
+          letter-spacing: 0.5px;
+          //color: #FFFFFF;
+          color: #333333;
+          margin-left: 12px;
+          font-family: $Ubuntu-Light;
+          transition: .25s;
+
+        }
+      }
+      .title{
+        font-weight: 500;
+        line-height: 28px;
+        font-size: 20px;
+        color: #333333;
+        font-family: $Ubuntu-Medium;
+        margin-top: 25px;
+        transition: .25s;
+
+      }
+      p{
+        font-style: normal;
+        font-weight: normal;
+        line-height: 24px;
+        font-size: 16px;
+        color: #999999;
+        font-family: $Ubuntu-Regular;
+        transition: .25s;
+
+      }
+    }
+
+
+
+    &:hover{
+      .img{
+        transform: scale(1.15);
+        //background-size: cover;
+
+      }
+    }
+  }
+}

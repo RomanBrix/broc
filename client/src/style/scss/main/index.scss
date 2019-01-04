@@ -1,0 +1,15 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  //background: royalblue;
+  //color: white;
+  //left: 100px;
+  @import "intro.scss";
+  @import "about.scss";
+  @import "start.scss";
+  @import "news.scss";
+  @import "help.scss";
+}

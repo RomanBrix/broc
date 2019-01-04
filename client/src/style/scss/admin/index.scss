@@ -1,0 +1,247 @@
+.admin{
+  width: 100%;
+  min-height: 100vh;
+
+  .enter{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .content{
+      padding: 50px 100px;
+      background: rgba(0, 0, 0, .5);
+      box-shadow: 0 0 10px 1px rgba(0, 0, 0, .3);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      input{
+        margin-bottom: 15px;
+      }
+      .btn-enter{
+        padding: 10px 20px;
+        background: white;
+        cursor: pointer;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .admin-news{
+    width: 100%;
+    //padding-top: 100px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .admin-header{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 25px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, .1);
+
+    //position: absolute;
+    ul{
+      display: flex;
+      list-style: none;
+      padding: 0;
+      li{
+        margin-right: 25px;
+        cursor: pointer;
+        transition: .25s;
+
+        &:hover{
+          color: red;
+        }
+        &:last-child{
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+
+  .editor {
+
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    cursor: text;
+    padding: 16px;
+    border-radius: 2px;
+    margin-bottom: 2em;
+    box-shadow: inset 0px 1px 8px -3px #ABABAB;
+    background: #fefefe;
+
+    img{
+      width: 150px;
+    }
+    .draftJsEmojiPlugin__alignmentTool__2mkQr{
+      position: absolute;
+      display: flex;
+    }
+    .draftJsFocusPlugin__focused__3Mksn{
+      border: 3px solid royalblue;
+    }
+  }
+
+  .editor :global(.public-DraftEditor-content) {
+    min-height: 140px;
+  }
+
+  .options {
+    margin-bottom: 20px;
+  }
+  .controls {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .2);
+    position: relative;
+    overflow: hidden;
+    &:before{
+      z-index: 0;
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      //background: #000;
+      box-shadow: inset 0 0 50px 100px rgba(240, 242, 243, 1.000);
+      filter: blur(5px);
+    }
+    .RichEditor-controls {
+      position: relative;
+      display: flex;
+      align-items: center;
+      //justify-content: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      justify-content: flex-start;
+      padding-left: 15px;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      //background: rgba(0, 0, 0, .1);
+      div {
+        margin-right: 10px;
+        padding: 5px 10px;
+        border: 2px solid purple;
+        border-radius: 6px;
+        color: black;
+        cursor: pointer;
+        transition: .25s;
+        background: white;
+        &:hover {
+          //background: rgba(158, 125, 49, 1.000);
+          background: purple;
+          color: white;
+        }
+      }
+      .RichEditor-activeButton {
+        //background: rgba(158, 125, 49, 1.000);
+        background: purple;
+        color: white;
+      }
+    }
+    .top {
+      //flex: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-left: 15px;
+      //background: rgba(0, 0, 0, .1);
+      padding-bottom: 15px;
+      border-bottom: 1px solid rgba(209, 219, 227, 1.000);
+      //margin-top: 10px;
+      button {
+        margin-right: 10px;
+        //background: transparent;
+        padding: 5px 10px;
+        //border: 1px solid powderblue;
+        border: 2px solid purple;
+        color: black;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: .25s;
+        background: white;
+
+        &:hover {
+          background: purple;
+          color: white;
+        }
+      }
+    }
+  }
+  .DraftEditor-root{
+    padding: 15px 25px;
+    width: 100%;
+    max-height: 65vh;
+    overflow: auto;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 2px solid rgba(240, 242, 243, 1.000);
+    border-top-color: transparent;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .2);
+
+
+    .DraftEditor-editorContainer {
+      box-sizing: border-box;
+      .public-DraftEditor-content{
+        box-sizing: border-box;
+        min-height: 60vh;
+
+
+        h1,h2, h3, h4{
+          //color: rgba(158, 125, 49, 1.000);
+          color: #000;
+        }
+        span.padding{
+          padding-left: 15px;
+        }
+        p{
+          color: #888888;
+          line-height: 31px;
+          font-size: 18px;
+          letter-spacing: -0.5px;
+          padding: 0 0 0 15px ;
+        }
+        ul, ol{
+          color: #888888;
+          line-height: 31px;
+          font-size: 18px;
+          letter-spacing: -0.5px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          li{
+            //cursor: pointer;
+            //transition: .25s;
+            //&:hover{
+            //  color: black;
+            //}
+          }
+          //padding: 0 0 0 15px ;
+        }
+        b{
+          color: #000;
+        }
+      }
+    }
+  }
+  .btn-add{
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid purple;
+    cursor: pointer;
+  }
+  .btns{
+
+  }
+  @import "./news.scss";
+}

@@ -1,0 +1,214 @@
+@import "../vars.scss";
+
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  //max-height: 60vh;
+  //background: fuchsia;
+  //background:  rgba(17, 36, 145, 1) no-repeat center 0px;
+  //background-size: cover;
+  color: white;
+  flex-wrap: wrap;
+  //overflow: hidden;
+  padding: 0px 100px;
+  position: relative;
+
+  .img-layer{
+    background:  rgba(17, 36, 145, 1) no-repeat center 0px;
+    background-size: cover;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 60vh;
+    z-index: 2;
+  }
+
+  .width-layer {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background: white;
+    color: black;
+    margin-top: 200px;
+    border-radius: 4px;
+    .content{
+      box-sizing: border-box;
+      padding: 60px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      .left, .right{
+
+      }
+      .left{
+        //width: 660px;
+        margin-right: 45px;
+        width: 65%;
+        .video{
+          width: 100%;
+          position: relative;
+          border-radius: 4px;
+          .btn-play{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: calc(50% - 50px);
+            left: calc(50% - 50px);
+            background: rgba(255, 255, 255, .2);
+            mix-blend-mode: normal;
+            //opacity: 0.3;
+            cursor: pointer;
+            transition: .25s;
+
+            i{
+              color: white;
+              //font-size: 2em;
+              font-size: 4em;
+              margin-bottom: -13px;
+              margin-right: -15px;
+              transition: .25s;
+            }
+            &:hover{
+              background: rgba(255, 255, 255, 1);
+              i{
+                //background: rgba(0, 0, 0, .2);
+                color: rgba(0, 0, 0, .5);
+              }
+
+            }
+          }
+          img{
+            width: 100%;
+            height: 100%;
+          }
+          &:before{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #171991;
+            opacity: 0.6;
+            border-radius: 4px;
+          }
+        }
+        .text{
+          margin-top: 60px;
+          p{
+            font-family: $Ubuntu-Regular;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 30px;
+            font-size: 18px;
+
+            color: #333333;
+          }
+        }
+      }
+      .right{
+        width: 30%;
+
+        h1{
+          font-family: $Ubuntu-Medium;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 52px;
+          font-size: 41px;
+          text-align: left;
+          margin-top: 0;
+
+          color: #171991;
+        }
+        .text{
+          p{
+            font-family: $Ubuntu-Regular;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 30px;
+            font-size: 18px;
+
+            color: #333333;
+          }
+        }
+        .socials{
+          margin-top: 35px;
+          ul{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            li{
+              margin-right: 25px;
+              position: relative;
+              width: 50px;
+              height: 50px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              cursor: pointer;
+              i{
+                font-size: 1.7em;
+                color: #171991;
+                margin: 0;
+                padding: 0;
+                margin-bottom: -10px;
+                margin-right: -5px;
+
+                &:before{
+                  margin: 0;
+                  padding: 0;
+                }
+              }
+
+              &:before{
+                content: '';
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                background: transparent;
+                //background: #000;
+                border-radius: 50%;
+                border: 3px solid transparent;
+                //border-color: transparent transparent transparent;
+                top: 0;
+                left: 0;
+              }
+
+              &:hover{
+                &:before {
+                  border-color: orange transparent transparent;
+                  animation: spin 1s linear infinite;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@keyframes spin {
+  100%{
+    transform: rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}

@@ -1,0 +1,174 @@
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+.intro-help {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding: 50px 100px; }
+  .intro-help .width-layer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%; }
+    .intro-help .width-layer h2 {
+      font-style: normal;
+      font-weight: 500;
+      line-height: 52px;
+      font-size: 41px;
+      font-family: "Ubuntu-Medium";
+      text-align: center;
+      width: 80%;
+      margin-bottom: 70px;
+      color: #134DAB; }
+    .intro-help .width-layer .help-container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      width: 100%; }
+      .intro-help .width-layer .help-container .left {
+        max-width: 45%;
+        width: 45%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-bottom: 100px; }
+        .intro-help .width-layer .help-container .left p {
+          padding-left: 0;
+          margin-left: 0;
+          text-align: left;
+          font-style: normal;
+          font-weight: normal;
+          line-height: 30px;
+          font-size: 24px;
+          color: #333333; }
+        .intro-help .width-layer .help-container .left .btn-faq {
+          background: #134DAB;
+          border-radius: 5px;
+          margin-top: 25px;
+          width: 200px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 15px;
+          box-sizing: border-box;
+          color: white;
+          font-style: normal;
+          font-weight: normal;
+          line-height: normal;
+          font-size: 18px;
+          cursor: pointer;
+          transition: .25s; }
+      .intro-help .width-layer .help-container .center {
+        max-width: 5%;
+        width: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        align-self: stretch;
+        position: relative; }
+        .intro-help .width-layer .help-container .center span {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          margin-top: -10px;
+          position: relative;
+          z-index: 2;
+          background: #134dab;
+          color: white;
+          border: 3px solid white; }
+        .intro-help .width-layer .help-container .center:before {
+          content: '';
+          position: absolute;
+          height: 100%;
+          width: 3px;
+          z-index: 0;
+          top: 0;
+          left: calc(50% - 1.5px);
+          background: #134dab; }
+      .intro-help .width-layer .help-container .right {
+        max-width: 45%;
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column; }
+        .intro-help .width-layer .help-container .right p {
+          padding-left: 0;
+          margin-left: 0;
+          font-style: normal;
+          font-weight: normal;
+          line-height: 30px;
+          font-size: 24px;
+          text-align: center;
+          color: #333333; }
+        .intro-help .width-layer .help-container .right .get-call {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 25px; }
+          .intro-help .width-layer .help-container .right .get-call input {
+            background: #FFFFFF;
+            box-shadow: 0px 4px 18px rgba(19, 77, 171, 0.26);
+            border-radius: 5px;
+            padding: 16px 30px 16px 16px;
+            box-sizing: border-box;
+            border: 0px solid transparent;
+            font-style: normal;
+            font-weight: normal;
+            line-height: normal;
+            width: 300px;
+            font-size: 16px;
+            outline: 0; }
+            .intro-help .width-layer .help-container .right .get-call input::placeholder {
+              font-size: 16px;
+              color: rgba(0, 3, 128, 0.44); }
+          .intro-help .width-layer .help-container .right .get-call .btn-get-call {
+            background: #134DAB;
+            border-radius: 5px;
+            width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            box-sizing: border-box;
+            color: white;
+            font-style: normal;
+            font-weight: normal;
+            line-height: normal;
+            font-size: 18px;
+            margin-left: -25px;
+            cursor: pointer;
+            transition: .25s; }
+        .intro-help .width-layer .help-container .right .btn-mail {
+          margin-top: 45px;
+          background: #134DAB;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 15px;
+          box-sizing: border-box;
+          color: white;
+          font-style: normal;
+          font-weight: normal;
+          line-height: normal;
+          font-size: 18px;
+          cursor: pointer;
+          transition: .25s; }

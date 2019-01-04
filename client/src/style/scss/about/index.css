@@ -1,0 +1,163 @@
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+  flex-wrap: wrap;
+  padding: 0px 100px;
+  position: relative; }
+  .about .img-layer {
+    background: #112491 no-repeat center 0px;
+    background-size: cover;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 60vh;
+    z-index: 2; }
+  .about .width-layer {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background: white;
+    color: black;
+    margin-top: 200px;
+    border-radius: 4px; }
+    .about .width-layer .content {
+      box-sizing: border-box;
+      padding: 60px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start; }
+      .about .width-layer .content .left {
+        margin-right: 45px;
+        width: 65%; }
+        .about .width-layer .content .left .video {
+          width: 100%;
+          position: relative;
+          border-radius: 4px; }
+          .about .width-layer .content .left .video .btn-play {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: calc(50% - 50px);
+            left: calc(50% - 50px);
+            background: rgba(255, 255, 255, 0.2);
+            mix-blend-mode: normal;
+            cursor: pointer;
+            transition: .25s; }
+            .about .width-layer .content .left .video .btn-play i {
+              color: white;
+              font-size: 4em;
+              margin-bottom: -13px;
+              margin-right: -15px;
+              transition: .25s; }
+            .about .width-layer .content .left .video .btn-play:hover {
+              background: white; }
+              .about .width-layer .content .left .video .btn-play:hover i {
+                color: rgba(0, 0, 0, 0.5); }
+          .about .width-layer .content .left .video img {
+            width: 100%;
+            height: 100%; }
+          .about .width-layer .content .left .video:before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #171991;
+            opacity: 0.6;
+            border-radius: 4px; }
+        .about .width-layer .content .left .text {
+          margin-top: 60px; }
+          .about .width-layer .content .left .text p {
+            font-family: "Ubuntu-Regular";
+            font-style: normal;
+            font-weight: normal;
+            line-height: 30px;
+            font-size: 18px;
+            color: #333333; }
+      .about .width-layer .content .right {
+        width: 30%; }
+        .about .width-layer .content .right h1 {
+          font-family: "Ubuntu-Medium";
+          font-style: normal;
+          font-weight: 500;
+          line-height: 52px;
+          font-size: 41px;
+          text-align: left;
+          margin-top: 0;
+          color: #171991; }
+        .about .width-layer .content .right .text p {
+          font-family: "Ubuntu-Regular";
+          font-style: normal;
+          font-weight: normal;
+          line-height: 30px;
+          font-size: 18px;
+          color: #333333; }
+        .about .width-layer .content .right .socials {
+          margin-top: 35px; }
+          .about .width-layer .content .right .socials ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start; }
+            .about .width-layer .content .right .socials ul li {
+              margin-right: 25px;
+              position: relative;
+              width: 50px;
+              height: 50px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              cursor: pointer; }
+              .about .width-layer .content .right .socials ul li i {
+                font-size: 1.7em;
+                color: #171991;
+                margin: 0;
+                padding: 0;
+                margin-bottom: -10px;
+                margin-right: -5px; }
+                .about .width-layer .content .right .socials ul li i:before {
+                  margin: 0;
+                  padding: 0; }
+              .about .width-layer .content .right .socials ul li:before {
+                content: '';
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                background: transparent;
+                border-radius: 50%;
+                border: 3px solid transparent;
+                top: 0;
+                left: 0; }
+              .about .width-layer .content .right .socials ul li:hover:before {
+                border-color: orange transparent transparent;
+                animation: spin 1s linear infinite; }
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+    filter: hue-rotate(360deg); } }

@@ -1,0 +1,215 @@
+@charset "UTF-8";
+.admin {
+  width: 100%;
+  min-height: 100vh; }
+  .admin .enter {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .admin .enter .content {
+      padding: 50px 100px;
+      background: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .admin .enter .content input {
+        margin-bottom: 15px; }
+      .admin .enter .content .btn-enter {
+        padding: 10px 20px;
+        background: white;
+        cursor: pointer;
+        text-transform: uppercase; }
+  .admin .admin-news {
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .admin .admin-header {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 25px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1); }
+    .admin .admin-header ul {
+      display: flex;
+      list-style: none;
+      padding: 0; }
+      .admin .admin-header ul li {
+        margin-right: 25px;
+        cursor: pointer;
+        transition: .25s; }
+        .admin .admin-header ul li:hover {
+          color: red; }
+        .admin .admin-header ul li:last-child {
+          margin-right: 0; }
+  .admin .editor {
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    cursor: text;
+    padding: 16px;
+    border-radius: 2px;
+    margin-bottom: 2em;
+    box-shadow: inset 0px 1px 8px -3px #ABABAB;
+    background: #fefefe; }
+    .admin .editor img {
+      width: 150px; }
+    .admin .editor .draftJsEmojiPlugin__alignmentTool__2mkQr {
+      position: absolute;
+      display: flex; }
+    .admin .editor .draftJsFocusPlugin__focused__3Mksn {
+      border: 3px solid royalblue; }
+  .admin .editor :global(.public-DraftEditor-content) {
+    min-height: 140px; }
+  .admin .options {
+    margin-bottom: 20px; }
+  .admin .controls {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden; }
+    .admin .controls:before {
+      z-index: 0;
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      box-shadow: inset 0 0 50px 100px #f0f2f3;
+      filter: blur(5px); }
+    .admin .controls .RichEditor-controls {
+      position: relative;
+      display: flex;
+      align-items: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      justify-content: flex-start;
+      padding-left: 15px;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px; }
+      .admin .controls .RichEditor-controls div {
+        margin-right: 10px;
+        padding: 5px 10px;
+        border: 2px solid purple;
+        border-radius: 6px;
+        color: black;
+        cursor: pointer;
+        transition: .25s;
+        background: white; }
+        .admin .controls .RichEditor-controls div:hover {
+          background: purple;
+          color: white; }
+      .admin .controls .RichEditor-controls .RichEditor-activeButton {
+        background: purple;
+        color: white; }
+    .admin .controls .top {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-left: 15px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #d1dbe3; }
+      .admin .controls .top button {
+        margin-right: 10px;
+        padding: 5px 10px;
+        border: 2px solid purple;
+        color: black;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: .25s;
+        background: white; }
+        .admin .controls .top button:hover {
+          background: purple;
+          color: white; }
+  .admin .DraftEditor-root {
+    padding: 15px 25px;
+    width: 100%;
+    max-height: 65vh;
+    overflow: auto;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 2px solid #f0f2f3;
+    border-top-color: transparent;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2); }
+    .admin .DraftEditor-root .DraftEditor-editorContainer {
+      box-sizing: border-box; }
+      .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content {
+        box-sizing: border-box;
+        min-height: 60vh; }
+        .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content h1, .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content h2, .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content h3, .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content h4 {
+          color: #000; }
+        .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content span.padding {
+          padding-left: 15px; }
+        .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content p {
+          color: #888888;
+          line-height: 31px;
+          font-size: 18px;
+          letter-spacing: -0.5px;
+          padding: 0 0 0 15px; }
+        .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content ul, .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content ol {
+          color: #888888;
+          line-height: 31px;
+          font-size: 18px;
+          letter-spacing: -0.5px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start; }
+        .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content b {
+          color: #000; }
+  .admin .btn-add {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid purple;
+    cursor: pointer; }
+  .admin .admin-news-article {
+    padding: 25px 50px;
+    box-sizing: border-box; }
+    .admin .admin-news-article .photo-load {
+      width: 250px;
+      height: 150px;
+      background: no-repeat center 0;
+      background-size: cover;
+      background-color: rgba(132, 18, 127, 0.3);
+      cursor: pointer;
+      border: 1px solid purple;
+      border-radius: 4px;
+      transition: .25s;
+      position: relative; }
+      .admin .admin-news-article .photo-load:before {
+        content: 'Загрузить фото';
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        top: 0;
+        color: white;
+        left: 0;
+        opacity: 0;
+        transition: .25s; }
+      .admin .admin-news-article .photo-load:after {
+        content: 'Превью фото';
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        transition: .25s; }
+      .admin .admin-news-article .photo-load:hover:after {
+        opacity: 0; }
+      .admin .admin-news-article .photo-load:hover:before {
+        opacity: 1; }

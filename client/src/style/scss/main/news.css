@@ -1,0 +1,113 @@
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+.intro-news {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: linear-gradient(128.29deg, #728EF8 -42.52%, #25278A 128.05%);
+  padding: 50px 100px; }
+  .intro-news .width-layer {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%; }
+    .intro-news .width-layer .img-preview {
+      width: 50%;
+      max-width: 50%;
+      height: 100%;
+      min-height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative; }
+      .intro-news .width-layer .img-preview .dots {
+        position: absolute;
+        right: 20px;
+        top: -20px;
+        z-index: 0; }
+      .intro-news .width-layer .img-preview div {
+        filter: drop-shadow(0px 4px 18px rgba(19, 77, 171, 0.94));
+        width: 90%;
+        height: 100%;
+        z-index: 2;
+        position: relative;
+        min-height: 250px;
+        background: no-repeat center center;
+        background-size: contain; }
+      .intro-news .width-layer .img-preview .news-img-prev {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: .25s; }
+      .intro-news .width-layer .img-preview .news-img-prev-active {
+        opacity: 1; }
+    .intro-news .width-layer .intro-news-container {
+      width: 50%;
+      max-width: 50%; }
+      .intro-news .width-layer .intro-news-container h2 {
+        line-height: 52px;
+        font-size: 41px;
+        font-family: "Ubuntu-Medium";
+        margin-top: 0;
+        color: #FFFFFF; }
+      .intro-news .width-layer .intro-news-container .intro-article-news {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-bottom: 40px;
+        transition: .25s;
+        cursor: pointer; }
+        .intro-news .width-layer .intro-news-container .intro-article-news .top {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          margin-bottom: 8px; }
+          .intro-news .width-layer .intro-news-container .intro-article-news .top .tag {
+            padding: 6px 16px;
+            font-family: "Ubuntu-Medium";
+            background: #134DAB;
+            border-radius: 5px;
+            color: white;
+            font-weight: 500;
+            line-height: normal;
+            font-size: 12px;
+            letter-spacing: 0.5px; }
+          .intro-news .width-layer .intro-news-container .intro-article-news .top .date {
+            font-style: normal;
+            font-weight: normal;
+            line-height: normal;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+            color: #FFFFFF;
+            margin-left: 12px; }
+        .intro-news .width-layer .intro-news-container .intro-article-news .title {
+          line-height: 30px;
+          font-size: 18px;
+          color: #FFFFFF; }
+        .intro-news .width-layer .intro-news-container .intro-article-news:hover {
+          transform: scale(1.01); }
+      .intro-news .width-layer .intro-news-container .btn-all {
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 18px;
+        text-align: center;
+        padding: 18px 0;
+        cursor: pointer;
+        color: #134DAB;
+        width: 200px;
+        background: #FFFFFF;
+        border-radius: 5px; }

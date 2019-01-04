@@ -1,0 +1,231 @@
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+.contacts {
+  background: #112491 no-repeat center 0px;
+  background-size: cover;
+  min-height: 80vh;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding: 0px 100px;
+  color: white; }
+  .contacts .width-layer {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 80vh; }
+    .contacts .width-layer .left {
+      flex: 55%;
+      box-sizing: border-box;
+      position: relative; }
+      .contacts .width-layer .left .dots {
+        position: absolute;
+        top: 45px;
+        right: 50%;
+        z-index: 0; }
+      .contacts .width-layer .left h1 {
+        position: relative;
+        z-index: 2;
+        font-style: normal;
+        font-family: "Ubuntu-Medium";
+        line-height: 52px;
+        font-size: 41px; }
+      .contacts .width-layer .left p {
+        font-family: "Ubuntu-Light";
+        width: 60%;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 26px;
+        font-size: 16px; }
+      .contacts .width-layer .left .contact-form {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap; }
+        .contacts .width-layer .left .contact-form .box-input {
+          flex: 45%;
+          width: 45%;
+          max-width: 45%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          margin-top: 40px;
+          position: relative;
+          margin-bottom: 40px; }
+          .contacts .width-layer .left .contact-form .box-input input {
+            background: transparent;
+            padding: 10px 30px 10px 16px;
+            box-sizing: border-box;
+            border: 0px solid transparent;
+            font-style: normal;
+            font-weight: normal;
+            line-height: normal;
+            width: 100%;
+            font-size: 16px;
+            font-family: "Ubuntu-Regular";
+            color: white;
+            outline: 0;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.6); }
+            .contacts .width-layer .left .contact-form .box-input input::placeholder {
+              font-size: 16px;
+              color: white;
+              opacity: 0;
+              transition: .25s; }
+            .contacts .width-layer .left .contact-form .box-input input:active, .contacts .width-layer .left .contact-form .box-input input:focus {
+              border-bottom: 2px solid white; }
+              .contacts .width-layer .left .contact-form .box-input input:active::placeholder, .contacts .width-layer .left .contact-form .box-input input:focus::placeholder {
+                font-size: 16px;
+                color: white;
+                opacity: 0.7; }
+          .contacts .width-layer .left .contact-form .box-input label {
+            position: absolute;
+            transition: .25s;
+            font-size: 16px;
+            cursor: text;
+            left: 15px;
+            top: 10px;
+            opacity: .8; }
+          .contacts .width-layer .left .contact-form .box-input .label-active {
+            left: 0px;
+            top: -15px;
+            cursor: pointer;
+            font-size: 14px; }
+        .contacts .width-layer .left .contact-form .box-area {
+          width: 100%;
+          position: relative; }
+          .contacts .width-layer .left .contact-form .box-area textarea {
+            overflow: scroll;
+            overflow-x: hidden;
+            width: 100%;
+            max-height: 300px;
+            height: 40px;
+            resize: none;
+            background: transparent;
+            padding: 10px 17px 10px 10px;
+            box-sizing: border-box;
+            border: 0px solid transparent;
+            font-style: normal;
+            font-weight: normal;
+            line-height: normal;
+            font-size: 16px;
+            font-family: "Ubuntu-Regular";
+            color: white;
+            outline: 0;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+            overflow: unset; }
+            .contacts .width-layer .left .contact-form .box-area textarea::-webkit-scrollbar {
+              display: none;
+              background: transparent;
+              width: 0px; }
+            .contacts .width-layer .left .contact-form .box-area textarea::-webkit-scrollbar-thumb {
+              background: #FF0000; }
+            .contacts .width-layer .left .contact-form .box-area textarea::placeholder {
+              font-size: 16px;
+              color: white;
+              opacity: 0;
+              transition: .25s; }
+            .contacts .width-layer .left .contact-form .box-area textarea:active, .contacts .width-layer .left .contact-form .box-area textarea:focus {
+              border-bottom: 2px solid white; }
+              .contacts .width-layer .left .contact-form .box-area textarea:active::placeholder, .contacts .width-layer .left .contact-form .box-area textarea:focus::placeholder {
+                font-size: 16px;
+                color: white;
+                opacity: 0.7; }
+          .contacts .width-layer .left .contact-form .box-area label {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            transition: .25s;
+            font-size: 16px;
+            cursor: text;
+            opacity: .8; }
+          .contacts .width-layer .left .contact-form .box-area .label-active {
+            left: 0px;
+            top: -20px;
+            cursor: pointer;
+            font-size: 14px; }
+      .contacts .width-layer .left .btn-send {
+        margin-top: 30px;
+        box-sizing: border-box;
+        width: 200px;
+        padding: 20px;
+        transition: .25s;
+        background: #134DAB;
+        border-radius: 5px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 18px;
+        font-family: "Ubuntu-Light"; }
+    .contacts .width-layer .right {
+      flex: 45%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end; }
+      .contacts .width-layer .right .img-svg-logo {
+        width: 100%;
+        height: 100%;
+        animation: float 6s ease-in-out infinite;
+        transform: translatey(0px);
+        backface-visibility: hidden; }
+        .contacts .width-layer .right .img-svg-logo .platforma {
+          -webkit-transform-origin: 50px 50px;
+          -ms-transform-origin: 50px 50px;
+          transform-origin: 50% 50%;
+          animation: slowly 10s ease-in-out infinite; }
+        .contacts .width-layer .right .img-svg-logo .bitok {
+          -webkit-transform-origin: 50px 50px;
+          -ms-transform-origin: 50px 50px;
+          transform-origin: 50% 50%;
+          animation: rotate 12s ease-in-out infinite; }
+
+@keyframes float {
+  0% {
+    backface-visibility: hidden;
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.6));
+    transform: translatey(0px); }
+  50% {
+    backface-visibility: hidden;
+    filter: drop-shadow(0 25px 15px rgba(0, 0, 0, 0.2));
+    transform: translatey(-20px); }
+  100% {
+    backface-visibility: hidden;
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.6));
+    transform: translatey(0px); } }
+
+@keyframes rotate {
+  0% {
+    backface-visibility: hidden;
+    transform: translatey(0px) scale(1); }
+  50% {
+    backface-visibility: hidden;
+    transform: translatey(15px) scale(1.1); }
+  100% {
+    backface-visibility: hidden;
+    transform: translatey(0px) scale(1); } }
+
+@keyframes slowly {
+  0% {
+    backface-visibility: hidden;
+    transform: translatey(0px); }
+  50% {
+    backface-visibility: hidden;
+    transform: translatey(-15px); }
+  100% {
+    backface-visibility: hidden;
+    transform: translatey(0px); } }

@@ -1,0 +1,99 @@
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+.documents {
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding: 0px 100px; }
+  .documents .photo-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+    background: #112491 no-repeat center 0px;
+    background-size: cover;
+    z-index: 1; }
+    .documents .photo-layer:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #171991;
+      opacity: 0.9; }
+  .documents .width-layer {
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh; }
+    .documents .width-layer .container {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      padding-top: 150px;
+      position: relative; }
+      .documents .width-layer .container .miniHead {
+        width: 20%;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        left: 0; }
+        .documents .width-layer .container .miniHead .nav-block {
+          background: #FFFFFF;
+          border-radius: 4px;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-sizing: border-box;
+          padding: 36px 0px;
+          margin-bottom: 25px;
+          cursor: pointer;
+          transition: .25s; }
+          .documents .width-layer .container .miniHead .nav-block:hover {
+            transform: scale(1.02); }
+          .documents .width-layer .container .miniHead .nav-block .dot {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: #BDBDBD;
+            margin-right: 20px;
+            margin-left: 20px; }
+          .documents .width-layer .container .miniHead .nav-block .active-dot {
+            background: #2C6EDE; }
+          .documents .width-layer .container .miniHead .nav-block .nav-name {
+            padding-right: 20px;
+            width: 65%; }
+      .documents .width-layer .container .content {
+        width: 76%;
+        background: white;
+        box-sizing: border-box;
+        border-radius: 4px;
+        padding: 50px; }
+        .documents .width-layer .container .content h2 {
+          line-height: 52px;
+          font-size: 41px;
+          font-family: "Ubuntu-Medium";
+          color: #171991;
+          margin-top: 0; }
+        .documents .width-layer .container .content p {
+          line-height: 30px;
+          font-size: 18px;
+          color: #333333; }

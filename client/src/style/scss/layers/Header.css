@@ -1,0 +1,96 @@
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 50px 100px;
+  position: absolute;
+  top: 0;
+  background: transparent;
+  left: 0;
+  color: #FFFFFF;
+  z-index: 1000; }
+  .header .width-layer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; }
+    .header .width-layer .logo {
+      position: relative;
+      font-family: "Catamaran-Bold";
+      font-style: normal;
+      line-height: 41px;
+      font-size: 30px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #FFFFFF; }
+      .header .width-layer .logo a {
+        color: inherit;
+        text-decoration: none; }
+        .header .width-layer .logo a .dots {
+          position: absolute;
+          left: -50px; }
+    .header .width-layer .menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .header .width-layer .menu li {
+        margin-right: 40px;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 16px; }
+        .header .width-layer .menu li a {
+          text-decoration: none;
+          color: inherit;
+          font-size: 1.1em;
+          font-weight: bold;
+          transition: .25s; }
+        .header .width-layer .menu li:last-child {
+          margin-right: 0; }
+      .header .width-layer .menu .regestr {
+        border: 1px solid #D0DDF5;
+        box-sizing: border-box;
+        border-radius: 20px;
+        cursor: pointer;
+        padding: 8px 25px;
+        transition: .25s;
+        position: relative;
+        z-index: 1;
+        overflow: hidden; }
+        .header .width-layer .menu .regestr span {
+          position: relative;
+          z-index: 100; }
+        .header .width-layer .menu .regestr:before {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          background: white;
+          border-radius: 50%;
+          width: 0px;
+          height: 0px;
+          transition: .25s;
+          z-index: 0; }
+        .header .width-layer .menu .regestr:hover {
+          color: #112491;
+          border-color: transparent; }
+          .header .width-layer .menu .regestr:hover:before {
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            left: 0;
+            top: 0; }

@@ -1,0 +1,87 @@
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+.intro-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding: 50px 100px; }
+  .intro-about .width-layer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%; }
+    .intro-about .width-layer h2 {
+      font-style: normal;
+      font-weight: 500;
+      line-height: 52px;
+      font-size: 41px;
+      font-family: "Ubuntu-Medium";
+      text-align: center;
+      width: 80%;
+      margin-bottom: 70px;
+      color: #134DAB; }
+    .intro-about .width-layer .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between; }
+      .intro-about .width-layer .container .container-item {
+        transition: .25s;
+        flex: 28%;
+        width: 28%;
+        max-width: 28%;
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; }
+        .intro-about .width-layer .container .container-item .ok {
+          margin-bottom: 28px;
+          width: 80px;
+          height: 80px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: .25s;
+          background: #134DAB;
+          color: white;
+          border-radius: 50%;
+          font-size: 1.5em; }
+          .intro-about .width-layer .container .container-item .ok i {
+            margin: 0;
+            padding: 0;
+            margin-bottom: -6px;
+            transition: .25s; }
+            .intro-about .width-layer .container .container-item .ok i:before {
+              margin: 0;
+              padding: 0; }
+        .intro-about .width-layer .container .container-item h3 {
+          text-align: center;
+          margin: 15px;
+          font-weight: normal;
+          line-height: 30px;
+          font-size: 24px;
+          color: #333333; }
+        .intro-about .width-layer .container .container-item p {
+          text-align: center;
+          line-height: 26px;
+          font-size: 16px;
+          color: #7E8085;
+          margin: 0; }
+        .intro-about .width-layer .container .container-item:hover {
+          transform: scale(1.1);
+          cursor: default; }
+          .intro-about .width-layer .container .container-item:hover .ok i {
+            font-size: 1.4em; }

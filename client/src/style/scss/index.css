@@ -1,0 +1,2179 @@
+@charset "UTF-8";
+/* DayPicker styles */
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+.DayPicker {
+  display: inline-block;
+  font-size: 1rem; }
+
+.DayPicker-wrapper {
+  position: relative;
+  flex-direction: row;
+  padding-bottom: 1em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.DayPicker-Months {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.DayPicker-Month {
+  display: table;
+  margin: 0 1em;
+  margin-top: 1em;
+  border-spacing: 0;
+  border-collapse: collapse;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.DayPicker-NavButton {
+  position: absolute;
+  top: 1em;
+  right: 1.5em;
+  left: auto;
+  display: inline-block;
+  margin-top: 2px;
+  width: 1.25em;
+  height: 1.25em;
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  color: #8B9898;
+  cursor: pointer; }
+
+.DayPicker-NavButton:hover {
+  opacity: 0.8; }
+
+.DayPicker-NavButton--prev {
+  margin-right: 1.5em;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAwCAYAAAB5R9gVAAAABGdBTUEAALGPC/xhBQAAAVVJREFUWAnN2G0KgjAYwPHpGfRkaZeqvgQaK+hY3SUHrk1YzNLay/OiEFp92I+/Mp2F2Mh2lLISWnflFjzH263RQjzMZ19wgs73ez0o1WmtW+dgA01VxrE3p6l2GLsnBy1VYQOtVSEH/atCCgqpQgKKqYIOiq2CBkqtggLKqQIKgqgCBjpJ2Y5CdJ+zrT9A7HHSTA1dxUdHgzCqJIEwq0SDsKsEg6iqBIEoq/wEcVRZBXFV+QJxV5mBtlDFB5VjYTaGZ2sf4R9PM7U9ZU+lLuaetPP/5Die3ToO1+u+MKtHs06qODB2zBnI/jBd4MPQm1VkY79Tb18gB+C62FdBFsZR6yeIo1YQiLJWMIiqVjQIu1YSCLNWFgijVjYIuhYYCKoWKAiiFgoopxYaKLUWOii2FgkophYp6F3r42W5A9s9OcgNvva8xQaysKXlFytoqdYmQH6tF3toSUo0INq9AAAAAElFTkSuQmCC"); }
+
+.DayPicker-NavButton--next {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAwCAYAAAB5R9gVAAAABGdBTUEAALGPC/xhBQAAAXRJREFUWAnN119ugjAcwPHWzJ1gnmxzB/BBE0n24m4xfNkTaOL7wOtsl3AXMMb+Vjaa1BG00N8fSEibPpAP3xAKKs2yjzTPH9RAjhEo9WzPr/Vm8zgE0+gXATAxxuxtqeJ9t5tIwv5AtQAApsfT6TPdbp+kUBcgVwvO51KqVhMkXKsVJFXrOkigVhCIs1Y4iKlWZxB1rX4gwlpRIIpa8SDkWmggrFq4IIRaJKCYWnSgnrXIQV1r8YD+1Vrn+bReagysIFfLABRt31v8oBu1xEBttfRbltmfjgEcWh9snUS2kNdBK6WN1vrOWxObWsz+fjxevsxmB1GQDfINWiev83nhaoiB/CoOU438oPrhXS0WpQ9xc1ZQWxWHqUYe0I0qrKCQKjygDlXIQV2r0IF6ViEBxVTBBSFUQQNhVYkHIVeJAtkNsbQ7c1LtzP6FsObhb2rCKv7NBIGoq4SDmKoEgTirXAcJVGkFSVVpgoSrXICGUMUH/QBZNSUy5XWUhwAAAABJRU5ErkJggg=="); }
+
+.DayPicker-NavButton--interactionDisabled {
+  display: none; }
+
+.DayPicker-Caption {
+  display: table-caption;
+  margin-bottom: 0.5em;
+  padding: 0 0.5em;
+  text-align: left; }
+
+.DayPicker-Caption > div {
+  font-weight: 500;
+  font-size: 1.15em; }
+
+.DayPicker-Weekdays {
+  display: table-header-group;
+  margin-top: 1em; }
+
+.DayPicker-WeekdaysRow {
+  display: table-row; }
+
+.DayPicker-Weekday {
+  display: table-cell;
+  padding: 0.5em;
+  color: #8B9898;
+  text-align: center;
+  font-size: 0.875em; }
+
+.DayPicker-Weekday abbr[title] {
+  border-bottom: none;
+  text-decoration: none; }
+
+.DayPicker-Body {
+  display: table-row-group; }
+
+.DayPicker-Week {
+  display: table-row; }
+
+.DayPicker-Day {
+  display: table-cell;
+  padding: 0.5em;
+  border-radius: 50%;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer; }
+
+.DayPicker-WeekNumber {
+  display: table-cell;
+  padding: 0.5em;
+  min-width: 1em;
+  border-right: 1px solid #EAECEC;
+  color: #8B9898;
+  vertical-align: middle;
+  text-align: right;
+  font-size: 0.75em;
+  cursor: pointer; }
+
+.DayPicker--interactionDisabled .DayPicker-Day {
+  cursor: default; }
+
+.DayPicker-Footer {
+  padding-top: 0.5em; }
+
+.DayPicker-TodayButton {
+  border: none;
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+  color: #4A90E2;
+  font-size: 0.875em;
+  cursor: pointer; }
+
+/* Default modifiers */
+.DayPicker-Day--today {
+  color: #D0021B;
+  font-weight: 700; }
+
+.DayPicker-Day--outside {
+  color: #8B9898;
+  cursor: default; }
+
+.DayPicker-Day--disabled {
+  color: #DCE0E0;
+  cursor: default;
+  /* background-color: #eff1f1; */ }
+
+/* Example modifiers */
+.DayPicker-Day--sunday {
+  background-color: #F7F8F8; }
+
+.DayPicker-Day--sunday:not(.DayPicker-Day--today) {
+  color: #DCE0E0; }
+
+.DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+  position: relative;
+  background-color: #4A90E2;
+  color: #F0F8FF; }
+
+.DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside):hover {
+  background-color: #51A0FA; }
+
+.DayPicker:not(.DayPicker--interactionDisabled)
+.DayPicker-Day:not(.DayPicker-Day--disabled):not(.DayPicker-Day--selected):not(.DayPicker-Day--outside):hover {
+  background-color: #F0F8FF; }
+
+/* DayPickerInput */
+.DayPickerInput {
+  display: inline-block; }
+
+.DayPickerInput-OverlayWrapper {
+  position: relative; }
+
+.DayPickerInput-Overlay {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); }
+
+html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  box-sizing: border-box;
+  font-family: "Ubuntu-Regular"; }
+  html body {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    min-height: 100%; }
+    html body #root {
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box; }
+      html body #root .App {
+        box-sizing: border-box; }
+        html body #root .App .header {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          box-sizing: border-box;
+          padding: 50px 100px;
+          position: absolute;
+          top: 0;
+          background: transparent;
+          left: 0;
+          color: #FFFFFF;
+          z-index: 1000; }
+          html body #root .App .header .width-layer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%; }
+            html body #root .App .header .width-layer .logo {
+              position: relative;
+              font-family: "Catamaran-Bold";
+              font-style: normal;
+              line-height: 41px;
+              font-size: 30px;
+              letter-spacing: 4px;
+              text-transform: uppercase;
+              color: #FFFFFF; }
+              html body #root .App .header .width-layer .logo a {
+                color: inherit;
+                text-decoration: none; }
+                html body #root .App .header .width-layer .logo a .dots {
+                  position: absolute;
+                  left: -50px; }
+            html body #root .App .header .width-layer .menu {
+              list-style: none;
+              padding: 0;
+              margin: 0;
+              display: flex;
+              align-items: center;
+              justify-content: space-between; }
+              html body #root .App .header .width-layer .menu li {
+                margin-right: 40px;
+                font-style: normal;
+                font-weight: normal;
+                line-height: normal;
+                font-size: 16px; }
+                html body #root .App .header .width-layer .menu li a {
+                  text-decoration: none;
+                  color: inherit;
+                  font-size: 1.1em;
+                  font-weight: bold;
+                  transition: .25s; }
+                html body #root .App .header .width-layer .menu li:last-child {
+                  margin-right: 0; }
+              html body #root .App .header .width-layer .menu .regestr {
+                border: 1px solid #D0DDF5;
+                box-sizing: border-box;
+                border-radius: 20px;
+                cursor: pointer;
+                padding: 8px 25px;
+                transition: .25s;
+                position: relative;
+                z-index: 1;
+                overflow: hidden; }
+                html body #root .App .header .width-layer .menu .regestr span {
+                  position: relative;
+                  z-index: 100; }
+                html body #root .App .header .width-layer .menu .regestr:before {
+                  content: '';
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  background: white;
+                  border-radius: 50%;
+                  width: 0px;
+                  height: 0px;
+                  transition: .25s;
+                  z-index: 0; }
+                html body #root .App .header .width-layer .menu .regestr:hover {
+                  color: #112491;
+                  border-color: transparent; }
+                  html body #root .App .header .width-layer .menu .regestr:hover:before {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 20px;
+                    left: 0;
+                    top: 0; }
+        html body #root .App .main {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh; }
+          html body #root .App .main .intro {
+            background: #112491 no-repeat center 0px;
+            background-size: cover;
+            min-height: 100vh;
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            flex-wrap: wrap;
+            overflow: hidden;
+            padding: 0px 100px;
+            color: white; }
+            html body #root .App .main .intro .width-layer {
+              width: 100%;
+              box-sizing: border-box;
+              display: flex;
+              align-items: flex-end;
+              justify-content: center;
+              flex-wrap: wrap;
+              min-height: 100vh; }
+              html body #root .App .main .intro .width-layer .left {
+                flex: 55%;
+                box-sizing: border-box;
+                position: relative; }
+                html body #root .App .main .intro .width-layer .left .dots {
+                  position: absolute;
+                  top: 45px;
+                  right: 50%;
+                  z-index: 0; }
+                html body #root .App .main .intro .width-layer .left h1 {
+                  position: relative;
+                  z-index: 2;
+                  font-style: normal;
+                  font-family: "Ubuntu-Medium";
+                  line-height: 52px;
+                  font-size: 41px; }
+                html body #root .App .main .intro .width-layer .left p {
+                  width: 60%;
+                  font-style: normal;
+                  font-weight: normal;
+                  line-height: 26px;
+                  font-size: 16px; }
+                html body #root .App .main .intro .width-layer .left .box-input {
+                  display: flex;
+                  align-items: center;
+                  justify-content: flex-start;
+                  margin-top: 40px; }
+                  html body #root .App .main .intro .width-layer .left .box-input input {
+                    background: #FFFFFF;
+                    border-radius: 5px;
+                    padding: 16px 30px 16px 16px;
+                    box-sizing: border-box;
+                    border: 0px solid transparent;
+                    font-style: normal;
+                    font-weight: normal;
+                    line-height: normal;
+                    width: 300px;
+                    font-size: 16px;
+                    outline: 0; }
+                    html body #root .App .main .intro .width-layer .left .box-input input::placeholder {
+                      font-size: 16px;
+                      color: rgba(0, 3, 128, 0.44); }
+                  html body #root .App .main .intro .width-layer .left .box-input .btn-reg {
+                    background: #134DAB;
+                    border-radius: 5px;
+                    width: 200px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 15px;
+                    box-sizing: border-box;
+                    color: white;
+                    font-style: normal;
+                    font-weight: normal;
+                    line-height: normal;
+                    font-size: 18px;
+                    margin-left: -25px;
+                    cursor: pointer;
+                    transition: .25s; }
+              html body #root .App .main .intro .width-layer .right {
+                flex: 45%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end; }
+                html body #root .App .main .intro .width-layer .right .img-svg-logo {
+                  width: 100%;
+                  height: 100%;
+                  animation: float 6s ease-in-out infinite;
+                  transform: translatey(0px);
+                  backface-visibility: hidden; }
+                  html body #root .App .main .intro .width-layer .right .img-svg-logo .platforma {
+                    -webkit-transform-origin: 50px 50px;
+                    -ms-transform-origin: 50px 50px;
+                    transform-origin: 50% 50%;
+                    animation: slowly 10s ease-in-out infinite; }
+                  html body #root .App .main .intro .width-layer .right .img-svg-logo .bitok {
+                    -webkit-transform-origin: 50px 50px;
+                    -ms-transform-origin: 50px 50px;
+                    transform-origin: 50% 50%;
+                    animation: rotate 12s ease-in-out infinite; }
+              html body #root .App .main .intro .width-layer .bottom {
+                flex: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                position: relative;
+                padding: 40px 0; }
+                html body #root .App .main .intro .width-layer .bottom p {
+                  position: absolute;
+                  margin-top: -8px;
+                  left: 0;
+                  font-style: normal;
+                  font-weight: normal;
+                  line-height: normal;
+                  font-size: 16px;
+                  text-transform: uppercase; }
+                html body #root .App .main .intro .width-layer .bottom .box-values {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center; }
+                  html body #root .App .main .intro .width-layer .bottom .box-values .values {
+                    margin-right: 80px; }
+                    html body #root .App .main .intro .width-layer .bottom .box-values .values .name {
+                      font-style: normal;
+                      font-weight: normal;
+                      line-height: normal;
+                      font-size: 16px;
+                      opacity: 0.67; }
+                    html body #root .App .main .intro .width-layer .bottom .box-values .values .value {
+                      margin-top: 8px;
+                      font-style: normal;
+                      font-weight: bold;
+                      line-height: normal;
+                      font-size: 16px; }
+                    html body #root .App .main .intro .width-layer .bottom .box-values .values:last-child {
+                      margin-right: 0; }
+                html body #root .App .main .intro .width-layer .bottom:before {
+                  content: '';
+                  position: absolute;
+                  width: 200%;
+                  height: 2px;
+                  background: #FFFFFF;
+                  opacity: 0.2;
+                  top: 0;
+                  left: 0; }
+
+@keyframes float {
+  0% {
+    backface-visibility: hidden;
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.6));
+    transform: translatey(0px); }
+  50% {
+    backface-visibility: hidden;
+    filter: drop-shadow(0 25px 15px rgba(0, 0, 0, 0.2));
+    transform: translatey(-20px); }
+  100% {
+    backface-visibility: hidden;
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.6));
+    transform: translatey(0px); } }
+
+@keyframes rotate {
+  0% {
+    backface-visibility: hidden;
+    transform: translatey(0px) scale(1); }
+  50% {
+    backface-visibility: hidden;
+    transform: translatey(15px) scale(1.1); }
+  100% {
+    backface-visibility: hidden;
+    transform: translatey(0px) scale(1); } }
+
+@keyframes slowly {
+  0% {
+    backface-visibility: hidden;
+    transform: translatey(0px); }
+  50% {
+    backface-visibility: hidden;
+    transform: translatey(-15px); }
+  100% {
+    backface-visibility: hidden;
+    transform: translatey(0px); } }
+          html body #root .App .main .intro-about {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            box-sizing: border-box;
+            flex-wrap: wrap;
+            overflow: hidden;
+            padding: 50px 100px; }
+            html body #root .App .main .intro-about .width-layer {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+              width: 100%; }
+              html body #root .App .main .intro-about .width-layer h2 {
+                font-style: normal;
+                font-weight: 500;
+                line-height: 52px;
+                font-size: 41px;
+                font-family: "Ubuntu-Medium";
+                text-align: center;
+                width: 80%;
+                margin-bottom: 70px;
+                color: #134DAB; }
+              html body #root .App .main .intro-about .width-layer .container {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                justify-content: space-between; }
+                html body #root .App .main .intro-about .width-layer .container .container-item {
+                  transition: .25s;
+                  flex: 28%;
+                  width: 28%;
+                  max-width: 28%;
+                  margin-bottom: 40px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  flex-direction: column; }
+                  html body #root .App .main .intro-about .width-layer .container .container-item .ok {
+                    margin-bottom: 28px;
+                    width: 80px;
+                    height: 80px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: .25s;
+                    background: #134DAB;
+                    color: white;
+                    border-radius: 50%;
+                    font-size: 1.5em; }
+                    html body #root .App .main .intro-about .width-layer .container .container-item .ok i {
+                      margin: 0;
+                      padding: 0;
+                      margin-bottom: -6px;
+                      transition: .25s; }
+                      html body #root .App .main .intro-about .width-layer .container .container-item .ok i:before {
+                        margin: 0;
+                        padding: 0; }
+                  html body #root .App .main .intro-about .width-layer .container .container-item h3 {
+                    text-align: center;
+                    margin: 15px;
+                    font-weight: normal;
+                    line-height: 30px;
+                    font-size: 24px;
+                    color: #333333; }
+                  html body #root .App .main .intro-about .width-layer .container .container-item p {
+                    text-align: center;
+                    line-height: 26px;
+                    font-size: 16px;
+                    color: #7E8085;
+                    margin: 0; }
+                  html body #root .App .main .intro-about .width-layer .container .container-item:hover {
+                    transform: scale(1.1);
+                    cursor: default; }
+                    html body #root .App .main .intro-about .width-layer .container .container-item:hover .ok i {
+                      font-size: 1.4em; }
+          html body #root .App .main .start {
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            overflow: hidden;
+            background: #F6F7FC;
+            padding: 50px 100px; }
+            html body #root .App .main .start .width-layer {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+              width: 100%; }
+              html body #root .App .main .start .width-layer h2 {
+                font-family: "Ubuntu-Medium";
+                line-height: 52px;
+                font-size: 41px;
+                text-align: center;
+                color: #134DAB;
+                margin-bottom: 32px; }
+              html body #root .App .main .start .width-layer p {
+                margin-top: 0;
+                font-weight: normal;
+                line-height: 30px;
+                font-size: 24px;
+                text-align: center;
+                color: #333333; }
+              html body #root .App .main .start .width-layer .container {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column; }
+                html body #root .App .main .start .width-layer .container .start-map {
+                  margin-top: 85px;
+                  margin-bottom: 15px;
+                  width: 81%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  position: relative; }
+                  html body #root .App .main .start .width-layer .container .start-map .number {
+                    width: 40px;
+                    position: relative;
+                    z-index: 2;
+                    height: 40px;
+                    border: 3px solid #134DAB;
+                    background: white;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0;
+                    box-sizing: border-box;
+                    font-weight: 500;
+                    line-height: 30px;
+                    font-size: 22px;
+                    font-family: "Ubuntu-Medium";
+                    color: #134DAB;
+                    transition: .25s;
+                    cursor: default; }
+                    html body #root .App .main .start .width-layer .container .start-map .number:last-child {
+                      width: 70px;
+                      height: 70px;
+                      background: #134DAB; }
+                      html body #root .App .main .start .width-layer .container .start-map .number:last-child i {
+                        color: white;
+                        margin-bottom: -6px; }
+                    html body #root .App .main .start .width-layer .container .start-map .number:hover {
+                      transform: scale(1.2); }
+                  html body #root .App .main .start .width-layer .container .start-map:before {
+                    content: '';
+                    z-index: 0;
+                    position: absolute;
+                    width: 95%;
+                    height: 3px;
+                    background: #134DAB;
+                    top: calc(50% - 1.5px);
+                    left: 10px; }
+                html body #root .App .main .start .width-layer .container .start-info {
+                  width: 100%;
+                  display: flex;
+                  align-items: flex-start;
+                  justify-content: space-between;
+                  position: relative; }
+                  html body #root .App .main .start .width-layer .container .start-info .info {
+                    width: 24%;
+                    max-width: 25%;
+                    transition: .25s; }
+                    html body #root .App .main .start .width-layer .container .start-info .info h3 {
+                      text-align: center;
+                      margin: 0;
+                      margin-bottom: 16px; }
+                    html body #root .App .main .start .width-layer .container .start-info .info p {
+                      line-height: 26px;
+                      font-size: 16px;
+                      color: #7E8085; }
+                html body #root .App .main .start .width-layer .container .regestr {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  margin-top: 50px; }
+                  html body #root .App .main .start .width-layer .container .regestr input {
+                    background: #FFFFFF;
+                    box-shadow: 0px 4px 18px rgba(19, 77, 171, 0.26);
+                    border-radius: 5px;
+                    padding: 16px 30px 16px 16px;
+                    box-sizing: border-box;
+                    border: 0px solid transparent;
+                    font-style: normal;
+                    font-weight: normal;
+                    line-height: normal;
+                    width: 300px;
+                    font-size: 16px;
+                    outline: 0; }
+                    html body #root .App .main .start .width-layer .container .regestr input::placeholder {
+                      font-size: 16px;
+                      color: rgba(0, 3, 128, 0.44); }
+                  html body #root .App .main .start .width-layer .container .regestr .btn-reg {
+                    background: #134DAB;
+                    border-radius: 5px;
+                    width: 200px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 15px;
+                    box-sizing: border-box;
+                    color: white;
+                    font-style: normal;
+                    font-weight: normal;
+                    line-height: normal;
+                    font-size: 18px;
+                    margin-left: -25px;
+                    cursor: pointer;
+                    transition: .25s; }
+          html body #root .App .main .intro-news {
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+            width: 100%;
+            box-sizing: border-box;
+            flex-wrap: wrap;
+            overflow: hidden;
+            background: linear-gradient(128.29deg, #728EF8 -42.52%, #25278A 128.05%);
+            padding: 50px 100px; }
+            html body #root .App .main .intro-news .width-layer {
+              display: flex;
+              align-items: stretch;
+              justify-content: center;
+              width: 100%; }
+              html body #root .App .main .intro-news .width-layer .img-preview {
+                width: 50%;
+                max-width: 50%;
+                height: 100%;
+                min-height: 250px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative; }
+                html body #root .App .main .intro-news .width-layer .img-preview .dots {
+                  position: absolute;
+                  right: 20px;
+                  top: -20px;
+                  z-index: 0; }
+                html body #root .App .main .intro-news .width-layer .img-preview div {
+                  filter: drop-shadow(0px 4px 18px rgba(19, 77, 171, 0.94));
+                  width: 90%;
+                  height: 100%;
+                  z-index: 2;
+                  position: relative;
+                  min-height: 250px;
+                  background: no-repeat center center;
+                  background-size: contain; }
+                html body #root .App .main .intro-news .width-layer .img-preview .news-img-prev {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  opacity: 0;
+                  transition: .25s; }
+                html body #root .App .main .intro-news .width-layer .img-preview .news-img-prev-active {
+                  opacity: 1; }
+              html body #root .App .main .intro-news .width-layer .intro-news-container {
+                width: 50%;
+                max-width: 50%; }
+                html body #root .App .main .intro-news .width-layer .intro-news-container h2 {
+                  line-height: 52px;
+                  font-size: 41px;
+                  font-family: "Ubuntu-Medium";
+                  margin-top: 0;
+                  color: #FFFFFF; }
+                html body #root .App .main .intro-news .width-layer .intro-news-container .intro-article-news {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: flex-start;
+                  justify-content: center;
+                  margin-bottom: 40px;
+                  transition: .25s;
+                  cursor: pointer; }
+                  html body #root .App .main .intro-news .width-layer .intro-news-container .intro-article-news .top {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    margin-bottom: 8px; }
+                    html body #root .App .main .intro-news .width-layer .intro-news-container .intro-article-news .top .tag {
+                      padding: 6px 16px;
+                      font-family: "Ubuntu-Medium";
+                      background: #134DAB;
+                      border-radius: 5px;
+                      color: white;
+                      font-weight: 500;
+                      line-height: normal;
+                      font-size: 12px;
+                      letter-spacing: 0.5px; }
+                    html body #root .App .main .intro-news .width-layer .intro-news-container .intro-article-news .top .date {
+                      font-style: normal;
+                      font-weight: normal;
+                      line-height: normal;
+                      font-size: 12px;
+                      letter-spacing: 0.5px;
+                      color: #FFFFFF;
+                      margin-left: 12px; }
+                  html body #root .App .main .intro-news .width-layer .intro-news-container .intro-article-news .title {
+                    line-height: 30px;
+                    font-size: 18px;
+                    color: #FFFFFF; }
+                  html body #root .App .main .intro-news .width-layer .intro-news-container .intro-article-news:hover {
+                    transform: scale(1.01); }
+                html body #root .App .main .intro-news .width-layer .intro-news-container .btn-all {
+                  font-style: normal;
+                  font-weight: normal;
+                  line-height: normal;
+                  font-size: 18px;
+                  text-align: center;
+                  padding: 18px 0;
+                  cursor: pointer;
+                  color: #134DAB;
+                  width: 200px;
+                  background: #FFFFFF;
+                  border-radius: 5px; }
+          html body #root .App .main .intro-help {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            box-sizing: border-box;
+            flex-wrap: wrap;
+            overflow: hidden;
+            padding: 50px 100px; }
+            html body #root .App .main .intro-help .width-layer {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+              width: 100%; }
+              html body #root .App .main .intro-help .width-layer h2 {
+                font-style: normal;
+                font-weight: 500;
+                line-height: 52px;
+                font-size: 41px;
+                font-family: "Ubuntu-Medium";
+                text-align: center;
+                width: 80%;
+                margin-bottom: 70px;
+                color: #134DAB; }
+              html body #root .App .main .intro-help .width-layer .help-container {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                width: 100%; }
+                html body #root .App .main .intro-help .width-layer .help-container .left {
+                  max-width: 45%;
+                  width: 45%;
+                  display: flex;
+                  align-items: flex-start;
+                  justify-content: flex-start;
+                  flex-direction: column;
+                  margin-bottom: 100px; }
+                  html body #root .App .main .intro-help .width-layer .help-container .left p {
+                    padding-left: 0;
+                    margin-left: 0;
+                    text-align: left;
+                    font-style: normal;
+                    font-weight: normal;
+                    line-height: 30px;
+                    font-size: 24px;
+                    color: #333333; }
+                  html body #root .App .main .intro-help .width-layer .help-container .left .btn-faq {
+                    background: #134DAB;
+                    border-radius: 5px;
+                    margin-top: 25px;
+                    width: 200px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 15px;
+                    box-sizing: border-box;
+                    color: white;
+                    font-style: normal;
+                    font-weight: normal;
+                    line-height: normal;
+                    font-size: 18px;
+                    cursor: pointer;
+                    transition: .25s; }
+                html body #root .App .main .intro-help .width-layer .help-container .center {
+                  max-width: 5%;
+                  width: 5%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  flex-direction: column;
+                  align-self: stretch;
+                  position: relative; }
+                  html body #root .App .main .intro-help .width-layer .help-container .center span {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    margin-top: -10px;
+                    position: relative;
+                    z-index: 2;
+                    background: #134dab;
+                    color: white;
+                    border: 3px solid white; }
+                  html body #root .App .main .intro-help .width-layer .help-container .center:before {
+                    content: '';
+                    position: absolute;
+                    height: 100%;
+                    width: 3px;
+                    z-index: 0;
+                    top: 0;
+                    left: calc(50% - 1.5px);
+                    background: #134dab; }
+                html body #root .App .main .intro-help .width-layer .help-container .right {
+                  max-width: 45%;
+                  width: 45%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: flex-start;
+                  flex-direction: column; }
+                  html body #root .App .main .intro-help .width-layer .help-container .right p {
+                    padding-left: 0;
+                    margin-left: 0;
+                    font-style: normal;
+                    font-weight: normal;
+                    line-height: 30px;
+                    font-size: 24px;
+                    text-align: center;
+                    color: #333333; }
+                  html body #root .App .main .intro-help .width-layer .help-container .right .get-call {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 25px; }
+                    html body #root .App .main .intro-help .width-layer .help-container .right .get-call input {
+                      background: #FFFFFF;
+                      box-shadow: 0px 4px 18px rgba(19, 77, 171, 0.26);
+                      border-radius: 5px;
+                      padding: 16px 30px 16px 16px;
+                      box-sizing: border-box;
+                      border: 0px solid transparent;
+                      font-style: normal;
+                      font-weight: normal;
+                      line-height: normal;
+                      width: 300px;
+                      font-size: 16px;
+                      outline: 0; }
+                      html body #root .App .main .intro-help .width-layer .help-container .right .get-call input::placeholder {
+                        font-size: 16px;
+                        color: rgba(0, 3, 128, 0.44); }
+                    html body #root .App .main .intro-help .width-layer .help-container .right .get-call .btn-get-call {
+                      background: #134DAB;
+                      border-radius: 5px;
+                      width: 200px;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      padding: 15px;
+                      box-sizing: border-box;
+                      color: white;
+                      font-style: normal;
+                      font-weight: normal;
+                      line-height: normal;
+                      font-size: 18px;
+                      margin-left: -25px;
+                      cursor: pointer;
+                      transition: .25s; }
+                  html body #root .App .main .intro-help .width-layer .help-container .right .btn-mail {
+                    margin-top: 45px;
+                    background: #134DAB;
+                    border-radius: 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 15px;
+                    box-sizing: border-box;
+                    color: white;
+                    font-style: normal;
+                    font-weight: normal;
+                    line-height: normal;
+                    font-size: 18px;
+                    cursor: pointer;
+                    transition: .25s; }
+        html body #root .App .about {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh;
+          color: white;
+          flex-wrap: wrap;
+          padding: 0px 100px;
+          position: relative; }
+          html body #root .App .about .img-layer {
+            background: #112491 no-repeat center 0px;
+            background-size: cover;
+            position: absolute;
+            box-sizing: border-box;
+            width: 100%;
+            top: 0;
+            left: 0;
+            height: 60vh;
+            z-index: 2; }
+          html body #root .App .about .width-layer {
+            position: relative;
+            z-index: 3;
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-wrap: wrap;
+            min-height: 100vh;
+            background: white;
+            color: black;
+            margin-top: 200px;
+            border-radius: 4px; }
+            html body #root .App .about .width-layer .content {
+              box-sizing: border-box;
+              padding: 60px;
+              display: flex;
+              align-items: flex-start;
+              justify-content: flex-start; }
+              html body #root .App .about .width-layer .content .left {
+                margin-right: 45px;
+                width: 65%; }
+                html body #root .App .about .width-layer .content .left .video {
+                  width: 100%;
+                  position: relative;
+                  border-radius: 4px; }
+                  html body #root .App .about .width-layer .content .left .video .btn-play {
+                    position: absolute;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    top: calc(50% - 50px);
+                    left: calc(50% - 50px);
+                    background: rgba(255, 255, 255, 0.2);
+                    mix-blend-mode: normal;
+                    cursor: pointer;
+                    transition: .25s; }
+                    html body #root .App .about .width-layer .content .left .video .btn-play i {
+                      color: white;
+                      font-size: 4em;
+                      margin-bottom: -13px;
+                      margin-right: -15px;
+                      transition: .25s; }
+                    html body #root .App .about .width-layer .content .left .video .btn-play:hover {
+                      background: white; }
+                      html body #root .App .about .width-layer .content .left .video .btn-play:hover i {
+                        color: rgba(0, 0, 0, 0.5); }
+                  html body #root .App .about .width-layer .content .left .video img {
+                    width: 100%;
+                    height: 100%; }
+                  html body #root .App .about .width-layer .content .left .video:before {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background: #171991;
+                    opacity: 0.6;
+                    border-radius: 4px; }
+                html body #root .App .about .width-layer .content .left .text {
+                  margin-top: 60px; }
+                  html body #root .App .about .width-layer .content .left .text p {
+                    font-family: "Ubuntu-Regular";
+                    font-style: normal;
+                    font-weight: normal;
+                    line-height: 30px;
+                    font-size: 18px;
+                    color: #333333; }
+              html body #root .App .about .width-layer .content .right {
+                width: 30%; }
+                html body #root .App .about .width-layer .content .right h1 {
+                  font-family: "Ubuntu-Medium";
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: 52px;
+                  font-size: 41px;
+                  text-align: left;
+                  margin-top: 0;
+                  color: #171991; }
+                html body #root .App .about .width-layer .content .right .text p {
+                  font-family: "Ubuntu-Regular";
+                  font-style: normal;
+                  font-weight: normal;
+                  line-height: 30px;
+                  font-size: 18px;
+                  color: #333333; }
+                html body #root .App .about .width-layer .content .right .socials {
+                  margin-top: 35px; }
+                  html body #root .App .about .width-layer .content .right .socials ul {
+                    padding: 0;
+                    margin: 0;
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start; }
+                    html body #root .App .about .width-layer .content .right .socials ul li {
+                      margin-right: 25px;
+                      position: relative;
+                      width: 50px;
+                      height: 50px;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      cursor: pointer; }
+                      html body #root .App .about .width-layer .content .right .socials ul li i {
+                        font-size: 1.7em;
+                        color: #171991;
+                        margin: 0;
+                        padding: 0;
+                        margin-bottom: -10px;
+                        margin-right: -5px; }
+                        html body #root .App .about .width-layer .content .right .socials ul li i:before {
+                          margin: 0;
+                          padding: 0; }
+                      html body #root .App .about .width-layer .content .right .socials ul li:before {
+                        content: '';
+                        position: absolute;
+                        width: 50px;
+                        height: 50px;
+                        background: transparent;
+                        border-radius: 50%;
+                        border: 3px solid transparent;
+                        top: 0;
+                        left: 0; }
+                      html body #root .App .about .width-layer .content .right .socials ul li:hover:before {
+                        border-color: orange transparent transparent;
+                        animation: spin 1s linear infinite; }
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+    filter: hue-rotate(360deg); } }
+        html body #root .App .contacts {
+          background: #112491 no-repeat center 0px;
+          background-size: cover;
+          min-height: 80vh;
+          width: 100%;
+          box-sizing: border-box;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+          overflow: hidden;
+          padding: 0px 100px;
+          color: white; }
+          html body #root .App .contacts .width-layer {
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            min-height: 80vh; }
+            html body #root .App .contacts .width-layer .left {
+              flex: 55%;
+              box-sizing: border-box;
+              position: relative; }
+              html body #root .App .contacts .width-layer .left .dots {
+                position: absolute;
+                top: 45px;
+                right: 50%;
+                z-index: 0; }
+              html body #root .App .contacts .width-layer .left h1 {
+                position: relative;
+                z-index: 2;
+                font-style: normal;
+                font-family: "Ubuntu-Medium";
+                line-height: 52px;
+                font-size: 41px; }
+              html body #root .App .contacts .width-layer .left p {
+                font-family: "Ubuntu-Light";
+                width: 60%;
+                font-style: normal;
+                font-weight: normal;
+                line-height: 26px;
+                font-size: 16px; }
+              html body #root .App .contacts .width-layer .left .contact-form {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                flex-wrap: wrap; }
+                html body #root .App .contacts .width-layer .left .contact-form .box-input {
+                  flex: 45%;
+                  width: 45%;
+                  max-width: 45%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: flex-start;
+                  margin-top: 40px;
+                  position: relative;
+                  margin-bottom: 40px; }
+                  html body #root .App .contacts .width-layer .left .contact-form .box-input input {
+                    background: transparent;
+                    padding: 10px 30px 10px 16px;
+                    box-sizing: border-box;
+                    border: 0px solid transparent;
+                    font-style: normal;
+                    font-weight: normal;
+                    line-height: normal;
+                    width: 100%;
+                    font-size: 16px;
+                    font-family: "Ubuntu-Regular";
+                    color: white;
+                    outline: 0;
+                    border-bottom: 2px solid rgba(255, 255, 255, 0.6); }
+                    html body #root .App .contacts .width-layer .left .contact-form .box-input input::placeholder {
+                      font-size: 16px;
+                      color: white;
+                      opacity: 0;
+                      transition: .25s; }
+                    html body #root .App .contacts .width-layer .left .contact-form .box-input input:active, html body #root .App .contacts .width-layer .left .contact-form .box-input input:focus {
+                      border-bottom: 2px solid white; }
+                      html body #root .App .contacts .width-layer .left .contact-form .box-input input:active::placeholder, html body #root .App .contacts .width-layer .left .contact-form .box-input input:focus::placeholder {
+                        font-size: 16px;
+                        color: white;
+                        opacity: 0.7; }
+                  html body #root .App .contacts .width-layer .left .contact-form .box-input label {
+                    position: absolute;
+                    transition: .25s;
+                    font-size: 16px;
+                    cursor: text;
+                    left: 15px;
+                    top: 10px;
+                    opacity: .8; }
+                  html body #root .App .contacts .width-layer .left .contact-form .box-input .label-active {
+                    left: 0px;
+                    top: -15px;
+                    cursor: pointer;
+                    font-size: 14px; }
+                html body #root .App .contacts .width-layer .left .contact-form .box-area {
+                  width: 100%;
+                  position: relative; }
+                  html body #root .App .contacts .width-layer .left .contact-form .box-area textarea {
+                    overflow: scroll;
+                    overflow-x: hidden;
+                    width: 100%;
+                    max-height: 300px;
+                    height: 40px;
+                    resize: none;
+                    background: transparent;
+                    padding: 10px 17px 10px 10px;
+                    box-sizing: border-box;
+                    border: 0px solid transparent;
+                    font-style: normal;
+                    font-weight: normal;
+                    line-height: normal;
+                    font-size: 16px;
+                    font-family: "Ubuntu-Regular";
+                    color: white;
+                    outline: 0;
+                    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+                    overflow: unset; }
+                    html body #root .App .contacts .width-layer .left .contact-form .box-area textarea::-webkit-scrollbar {
+                      display: none;
+                      background: transparent;
+                      width: 0px; }
+                    html body #root .App .contacts .width-layer .left .contact-form .box-area textarea::-webkit-scrollbar-thumb {
+                      background: #FF0000; }
+                    html body #root .App .contacts .width-layer .left .contact-form .box-area textarea::placeholder {
+                      font-size: 16px;
+                      color: white;
+                      opacity: 0;
+                      transition: .25s; }
+                    html body #root .App .contacts .width-layer .left .contact-form .box-area textarea:active, html body #root .App .contacts .width-layer .left .contact-form .box-area textarea:focus {
+                      border-bottom: 2px solid white; }
+                      html body #root .App .contacts .width-layer .left .contact-form .box-area textarea:active::placeholder, html body #root .App .contacts .width-layer .left .contact-form .box-area textarea:focus::placeholder {
+                        font-size: 16px;
+                        color: white;
+                        opacity: 0.7; }
+                  html body #root .App .contacts .width-layer .left .contact-form .box-area label {
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
+                    transition: .25s;
+                    font-size: 16px;
+                    cursor: text;
+                    opacity: .8; }
+                  html body #root .App .contacts .width-layer .left .contact-form .box-area .label-active {
+                    left: 0px;
+                    top: -20px;
+                    cursor: pointer;
+                    font-size: 14px; }
+              html body #root .App .contacts .width-layer .left .btn-send {
+                margin-top: 30px;
+                box-sizing: border-box;
+                width: 200px;
+                padding: 20px;
+                transition: .25s;
+                background: #134DAB;
+                border-radius: 5px;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                font-size: 18px;
+                font-family: "Ubuntu-Light"; }
+            html body #root .App .contacts .width-layer .right {
+              flex: 45%;
+              display: flex;
+              align-items: center;
+              justify-content: flex-end; }
+              html body #root .App .contacts .width-layer .right .img-svg-logo {
+                width: 100%;
+                height: 100%;
+                animation: float 6s ease-in-out infinite;
+                transform: translatey(0px);
+                backface-visibility: hidden; }
+                html body #root .App .contacts .width-layer .right .img-svg-logo .platforma {
+                  -webkit-transform-origin: 50px 50px;
+                  -ms-transform-origin: 50px 50px;
+                  transform-origin: 50% 50%;
+                  animation: slowly 10s ease-in-out infinite; }
+                html body #root .App .contacts .width-layer .right .img-svg-logo .bitok {
+                  -webkit-transform-origin: 50px 50px;
+                  -ms-transform-origin: 50px 50px;
+                  transform-origin: 50% 50%;
+                  animation: rotate 12s ease-in-out infinite; }
+
+@keyframes float {
+  0% {
+    backface-visibility: hidden;
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.6));
+    transform: translatey(0px); }
+  50% {
+    backface-visibility: hidden;
+    filter: drop-shadow(0 25px 15px rgba(0, 0, 0, 0.2));
+    transform: translatey(-20px); }
+  100% {
+    backface-visibility: hidden;
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.6));
+    transform: translatey(0px); } }
+
+@keyframes rotate {
+  0% {
+    backface-visibility: hidden;
+    transform: translatey(0px) scale(1); }
+  50% {
+    backface-visibility: hidden;
+    transform: translatey(15px) scale(1.1); }
+  100% {
+    backface-visibility: hidden;
+    transform: translatey(0px) scale(1); } }
+
+@keyframes slowly {
+  0% {
+    backface-visibility: hidden;
+    transform: translatey(0px); }
+  50% {
+    backface-visibility: hidden;
+    transform: translatey(-15px); }
+  100% {
+    backface-visibility: hidden;
+    transform: translatey(0px); } }
+        html body #root .App .documents {
+          min-height: 100vh;
+          width: 100%;
+          box-sizing: border-box;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+          flex-wrap: wrap;
+          overflow: hidden;
+          padding: 0px 100px; }
+          html body #root .App .documents .photo-layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60vh;
+            background: #112491 no-repeat center 0px;
+            background-size: cover;
+            z-index: 1; }
+            html body #root .App .documents .photo-layer:before {
+              content: '';
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              background: #171991;
+              opacity: 0.9; }
+          html body #root .App .documents .width-layer {
+            z-index: 2;
+            position: relative;
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-wrap: wrap;
+            min-height: 100vh; }
+            html body #root .App .documents .width-layer .container {
+              display: flex;
+              align-items: stretch;
+              justify-content: space-between;
+              padding-top: 150px;
+              position: relative; }
+              html body #root .App .documents .width-layer .container .miniHead {
+                width: 20%;
+                position: sticky;
+                position: -webkit-sticky;
+                top: 0;
+                left: 0; }
+                html body #root .App .documents .width-layer .container .miniHead .nav-block {
+                  background: #FFFFFF;
+                  border-radius: 4px;
+                  width: 100%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  box-sizing: border-box;
+                  padding: 36px 0px;
+                  margin-bottom: 25px;
+                  cursor: pointer;
+                  transition: .25s; }
+                  html body #root .App .documents .width-layer .container .miniHead .nav-block:hover {
+                    transform: scale(1.02); }
+                  html body #root .App .documents .width-layer .container .miniHead .nav-block .dot {
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 50%;
+                    background: #BDBDBD;
+                    margin-right: 20px;
+                    margin-left: 20px; }
+                  html body #root .App .documents .width-layer .container .miniHead .nav-block .active-dot {
+                    background: #2C6EDE; }
+                  html body #root .App .documents .width-layer .container .miniHead .nav-block .nav-name {
+                    padding-right: 20px;
+                    width: 65%; }
+              html body #root .App .documents .width-layer .container .content {
+                width: 76%;
+                background: white;
+                box-sizing: border-box;
+                border-radius: 4px;
+                padding: 50px; }
+                html body #root .App .documents .width-layer .container .content h2 {
+                  line-height: 52px;
+                  font-size: 41px;
+                  font-family: "Ubuntu-Medium";
+                  color: #171991;
+                  margin-top: 0; }
+                html body #root .App .documents .width-layer .container .content p {
+                  line-height: 30px;
+                  font-size: 18px;
+                  color: #333333; }
+        html body #root .App .news {
+          background: #E5E5E5;
+          min-height: 100vh;
+          width: 100%;
+          box-sizing: border-box;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-wrap: wrap;
+          overflow: hidden;
+          padding: 0px 100px;
+          color: white;
+          position: relative; }
+          html body #root .App .news .photo-layer {
+            position: absolute;
+            width: 100%;
+            height: 80vh;
+            background: #112491 no-repeat center 0px;
+            background-size: cover;
+            z-index: 1;
+            top: 0;
+            left: 0; }
+          html body #root .App .news .width-layer {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-wrap: wrap;
+            min-height: 100vh; }
+            html body #root .App .news .width-layer .intro {
+              min-height: calc(80vh - 150px);
+              box-sizing: border-box;
+              width: 100%;
+              margin-top: 150px;
+              display: flex;
+              align-items: flex-start;
+              justify-content: space-between; }
+              html body #root .App .news .width-layer .intro .left, html body #root .App .news .width-layer .intro .right {
+                width: 47%; }
+              html body #root .App .news .width-layer .intro .left h2 {
+                font-weight: 500;
+                line-height: 52px;
+                font-size: 41px;
+                font-family: "Ubuntu-Medium";
+                color: #FFFFFF; }
+              html body #root .App .news .width-layer .intro .left .box .checkboxes {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start; }
+                html body #root .App .news .width-layer .intro .left .box .checkboxes .check {
+                  margin-bottom: 15px; }
+                  html body #root .App .news .width-layer .intro .left .box .checkboxes .check input {
+                    display: none; }
+                  html body #root .App .news .width-layer .intro .left .box .checkboxes .check label {
+                    cursor: pointer;
+                    position: relative;
+                    margin: auto;
+                    width: 18px;
+                    height: 18px;
+                    -webkit-tap-highlight-color: transparent;
+                    transform: translate3d(0, 0, 0); }
+                    html body #root .App .news .width-layer .intro .left .box .checkboxes .check label:before {
+                      content: "";
+                      position: absolute;
+                      top: -10px;
+                      left: -11px;
+                      width: 40px;
+                      height: 40px;
+                      border-radius: 50%;
+                      background: rgba(255, 255, 255, 0.08);
+                      opacity: 0;
+                      transition: opacity .2s ease; }
+                    html body #root .App .news .width-layer .intro .left .box .checkboxes .check label svg {
+                      margin-bottom: -4px;
+                      margin-right: 15px;
+                      position: relative;
+                      z-index: 1;
+                      fill: none;
+                      stroke-linecap: round;
+                      stroke-linejoin: round;
+                      stroke: #C8CCD4;
+                      stroke-width: 1.5;
+                      transform: translate3d(0, 0, 0);
+                      transition: all .2s ease; }
+                      html body #root .App .news .width-layer .intro .left .box .checkboxes .check label svg path {
+                        stroke-dasharray: 60;
+                        stroke-dashoffset: 0; }
+                      html body #root .App .news .width-layer .intro .left .box .checkboxes .check label svg polyline {
+                        stroke-dasharray: 22;
+                        stroke-dashoffset: 66; }
+                    html body #root .App .news .width-layer .intro .left .box .checkboxes .check label:hover:before {
+                      opacity: 1; }
+                    html body #root .App .news .width-layer .intro .left .box .checkboxes .check label:hover svg {
+                      stroke: #4285F4; }
+                  html body #root .App .news .width-layer .intro .left .box .checkboxes .check input:checked + label svg {
+                    stroke: #4285F4; }
+                  html body #root .App .news .width-layer .intro .left .box .checkboxes .check input:checked + label path {
+                    stroke-dashoffset: 60;
+                    transition: all .3s linear; }
+                  html body #root .App .news .width-layer .intro .left .box .checkboxes .check input:checked + label polyline {
+                    stroke-dashoffset: 42;
+                    transition: all .2s linear;
+                    transition-delay: .15s; }
+              html body #root .App .news .width-layer .intro .left .box .search {
+                flex: 90%;
+                width: 90%;
+                max-width: 90%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin-top: 40px;
+                position: relative;
+                margin-bottom: 40px; }
+                html body #root .App .news .width-layer .intro .left .box .search input {
+                  background: transparent;
+                  padding: 10px 30px 10px 16px;
+                  box-sizing: border-box;
+                  border: 0px solid transparent;
+                  font-style: normal;
+                  font-weight: normal;
+                  line-height: normal;
+                  width: 100%;
+                  font-size: 16px;
+                  font-family: "Ubuntu-Regular";
+                  color: white;
+                  outline: 0;
+                  border-bottom: 2px solid rgba(255, 255, 255, 0.6); }
+                  html body #root .App .news .width-layer .intro .left .box .search input::placeholder {
+                    font-size: 16px;
+                    color: white;
+                    opacity: 0;
+                    transition: .25s; }
+                  html body #root .App .news .width-layer .intro .left .box .search input:active, html body #root .App .news .width-layer .intro .left .box .search input:focus {
+                    border-bottom: 2px solid white; }
+                    html body #root .App .news .width-layer .intro .left .box .search input:active::placeholder, html body #root .App .news .width-layer .intro .left .box .search input:focus::placeholder {
+                      font-size: 16px;
+                      color: white;
+                      opacity: 0.7; }
+                html body #root .App .news .width-layer .intro .left .box .search label {
+                  position: absolute;
+                  transition: .25s;
+                  font-size: 16px;
+                  cursor: text;
+                  left: 15px;
+                  top: 10px;
+                  opacity: .8; }
+                html body #root .App .news .width-layer .intro .left .box .search .label-active {
+                  left: 0px;
+                  top: -15px;
+                  cursor: pointer;
+                  font-size: 14px; }
+              html body #root .App .news .width-layer .intro .right {
+                position: relative; }
+                html body #root .App .news .width-layer .intro .right .dots {
+                  position: absolute;
+                  right: 40%;
+                  top: 20px; }
+                html body #root .App .news .width-layer .intro .right h1 {
+                  font-weight: 500;
+                  line-height: 52px;
+                  font-size: 41px;
+                  font-family: "Ubuntu-Medium";
+                  color: #FFFFFF; }
+                html body #root .App .news .width-layer .intro .right .intro-news .intro-article-news {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: flex-start;
+                  justify-content: center;
+                  margin-bottom: 40px;
+                  transition: .25s;
+                  cursor: pointer; }
+                  html body #root .App .news .width-layer .intro .right .intro-news .intro-article-news .top {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    margin-bottom: 8px; }
+                    html body #root .App .news .width-layer .intro .right .intro-news .intro-article-news .top .tag {
+                      padding: 6px 16px;
+                      font-family: "Ubuntu-Medium";
+                      background: #134DAB;
+                      border-radius: 5px;
+                      color: white;
+                      font-weight: 500;
+                      line-height: normal;
+                      font-size: 12px;
+                      letter-spacing: 0.5px; }
+                    html body #root .App .news .width-layer .intro .right .intro-news .intro-article-news .top .date {
+                      font-style: normal;
+                      font-weight: normal;
+                      line-height: normal;
+                      font-size: 12px;
+                      letter-spacing: 0.5px;
+                      color: #FFFFFF;
+                      margin-left: 12px; }
+                  html body #root .App .news .width-layer .intro .right .intro-news .intro-article-news .title {
+                    line-height: 30px;
+                    font-size: 18px;
+                    color: #FFFFFF; }
+                  html body #root .App .news .width-layer .intro .right .intro-news .intro-article-news:hover {
+                    transform: scale(1.01); }
+            html body #root .App .news .width-layer .container {
+              width: 100%;
+              display: flex;
+              align-items: flex-start;
+              justify-content: space-between;
+              flex-wrap: wrap;
+              box-sizing: border-box;
+              padding: 50px 0; }
+              html body #root .App .news .width-layer .container .article-news {
+                max-width: 30%;
+                flex: 30%;
+                width: 30%;
+                background: #FFFFFF;
+                border: 1px solid #E0E0E0;
+                box-sizing: border-box;
+                border-radius: 8px;
+                margin-bottom: 35px;
+                color: black;
+                cursor: pointer;
+                transition: .25s;
+                overflow: hidden; }
+                html body #root .App .news .width-layer .container .article-news .img {
+                  width: 100%;
+                  height: 300px;
+                  background: rgba(224, 224, 224, 0.6) no-repeat center 0;
+                  background-size: cover;
+                  transition: .55s;
+                  position: relative;
+                  z-index: 1; }
+                html body #root .App .news .width-layer .container .article-news .content {
+                  box-sizing: border-box;
+                  padding: 25px 30px;
+                  transition: .25s;
+                  position: relative;
+                  z-index: 2;
+                  background: white; }
+                  html body #root .App .news .width-layer .container .article-news .content .top {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    margin-bottom: 8px;
+                    transition: .25s; }
+                    html body #root .App .news .width-layer .container .article-news .content .top .tag {
+                      padding: 6px 16px;
+                      font-family: "Ubuntu-Medium";
+                      background: #134DAB;
+                      border-radius: 5px;
+                      color: white;
+                      font-weight: 500;
+                      line-height: normal;
+                      font-size: 12px;
+                      letter-spacing: 0.5px;
+                      transition: .25s; }
+                    html body #root .App .news .width-layer .container .article-news .content .top .date {
+                      font-style: normal;
+                      font-weight: normal;
+                      line-height: normal;
+                      font-size: 12px;
+                      letter-spacing: 0.5px;
+                      color: #333333;
+                      margin-left: 12px;
+                      font-family: "Ubuntu-Light";
+                      transition: .25s; }
+                  html body #root .App .news .width-layer .container .article-news .content .title {
+                    font-weight: 500;
+                    line-height: 28px;
+                    font-size: 20px;
+                    color: #333333;
+                    font-family: "Ubuntu-Medium";
+                    margin-top: 25px;
+                    transition: .25s; }
+                  html body #root .App .news .width-layer .container .article-news .content p {
+                    font-style: normal;
+                    font-weight: normal;
+                    line-height: 24px;
+                    font-size: 16px;
+                    color: #999999;
+                    font-family: "Ubuntu-Regular";
+                    transition: .25s; }
+                html body #root .App .news .width-layer .container .article-news:hover .img {
+                  transform: scale(1.15); }
+        html body #root .App .admin {
+          width: 100%;
+          min-height: 100vh; }
+          html body #root .App .admin .enter {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; }
+            html body #root .App .admin .enter .content {
+              padding: 50px 100px;
+              background: rgba(0, 0, 0, 0.5);
+              box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center; }
+              html body #root .App .admin .enter .content input {
+                margin-bottom: 15px; }
+              html body #root .App .admin .enter .content .btn-enter {
+                padding: 10px 20px;
+                background: white;
+                cursor: pointer;
+                text-transform: uppercase; }
+          html body #root .App .admin .admin-news {
+            width: 100%;
+            min-height: 100vh;
+            box-sizing: border-box;
+            background: #000;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+          html body #root .App .admin .admin-header {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 20px 25px;
+            box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1); }
+            html body #root .App .admin .admin-header ul {
+              display: flex;
+              list-style: none;
+              padding: 0; }
+              html body #root .App .admin .admin-header ul li {
+                margin-right: 25px;
+                cursor: pointer;
+                transition: .25s; }
+                html body #root .App .admin .admin-header ul li:hover {
+                  color: red; }
+                html body #root .App .admin .admin-header ul li:last-child {
+                  margin-right: 0; }
+          html body #root .App .admin .editor {
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            cursor: text;
+            padding: 16px;
+            border-radius: 2px;
+            margin-bottom: 2em;
+            box-shadow: inset 0px 1px 8px -3px #ABABAB;
+            background: #fefefe; }
+            html body #root .App .admin .editor img {
+              width: 150px; }
+            html body #root .App .admin .editor .draftJsEmojiPlugin__alignmentTool__2mkQr {
+              position: absolute;
+              display: flex; }
+            html body #root .App .admin .editor .draftJsFocusPlugin__focused__3Mksn {
+              border: 3px solid royalblue; }
+          html body #root .App .admin .editor :global(.public-DraftEditor-content) {
+            min-height: 140px; }
+          html body #root .App .admin .options {
+            margin-bottom: 20px; }
+          html body #root .App .admin .controls {
+            box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+            position: relative;
+            overflow: hidden; }
+            html body #root .App .admin .controls:before {
+              z-index: 0;
+              content: '';
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              top: 0;
+              left: 0;
+              box-shadow: inset 0 0 50px 100px #f0f2f3;
+              filter: blur(5px); }
+            html body #root .App .admin .controls .RichEditor-controls {
+              position: relative;
+              display: flex;
+              align-items: center;
+              padding-top: 15px;
+              padding-bottom: 15px;
+              justify-content: flex-start;
+              padding-left: 15px;
+              border-top-left-radius: 6px;
+              border-top-right-radius: 6px; }
+              html body #root .App .admin .controls .RichEditor-controls div {
+                margin-right: 10px;
+                padding: 5px 10px;
+                border: 2px solid purple;
+                border-radius: 6px;
+                color: black;
+                cursor: pointer;
+                transition: .25s;
+                background: white; }
+                html body #root .App .admin .controls .RichEditor-controls div:hover {
+                  background: purple;
+                  color: white; }
+              html body #root .App .admin .controls .RichEditor-controls .RichEditor-activeButton {
+                background: purple;
+                color: white; }
+            html body #root .App .admin .controls .top {
+              position: relative;
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+              padding-left: 15px;
+              padding-bottom: 15px;
+              border-bottom: 1px solid #d1dbe3; }
+              html body #root .App .admin .controls .top button {
+                margin-right: 10px;
+                padding: 5px 10px;
+                border: 2px solid purple;
+                color: black;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: .25s;
+                background: white; }
+                html body #root .App .admin .controls .top button:hover {
+                  background: purple;
+                  color: white; }
+          html body #root .App .admin .DraftEditor-root {
+            padding: 15px 25px;
+            width: 100%;
+            max-height: 65vh;
+            overflow: auto;
+            box-sizing: border-box;
+            font-size: 14px;
+            border: 2px solid #f0f2f3;
+            border-top-color: transparent;
+            box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2); }
+            html body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer {
+              box-sizing: border-box; }
+              html body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content {
+                box-sizing: border-box;
+                min-height: 60vh; }
+                html body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content h1, html body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content h2, html body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content h3, html body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content h4 {
+                  color: #000; }
+                html body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content span.padding {
+                  padding-left: 15px; }
+                html body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content p {
+                  color: #888888;
+                  line-height: 31px;
+                  font-size: 18px;
+                  letter-spacing: -0.5px;
+                  padding: 0 0 0 15px; }
+                html body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content ul, html body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content ol {
+                  color: #888888;
+                  line-height: 31px;
+                  font-size: 18px;
+                  letter-spacing: -0.5px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: flex-start; }
+                html body #root .App .admin .DraftEditor-root .DraftEditor-editorContainer .public-DraftEditor-content b {
+                  color: #000; }
+          html body #root .App .admin .btn-add {
+            width: 100%;
+            padding: 10px 0;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid purple;
+            cursor: pointer; }
+          html body #root .App .admin .admin-news-article {
+            padding: 25px 50px;
+            box-sizing: border-box; }
+            html body #root .App .admin .admin-news-article .photo-load {
+              width: 250px;
+              height: 150px;
+              background: no-repeat center 0;
+              background-size: cover;
+              background-color: rgba(132, 18, 127, 0.3);
+              cursor: pointer;
+              border: 1px solid purple;
+              border-radius: 4px;
+              transition: .25s;
+              position: relative; }
+              html body #root .App .admin .admin-news-article .photo-load:before {
+                content: 'Загрузить фото';
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5);
+                top: 0;
+                color: white;
+                left: 0;
+                opacity: 0;
+                transition: .25s; }
+              html body #root .App .admin .admin-news-article .photo-load:after {
+                content: 'Превью фото';
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 100%;
+                opacity: 1;
+                transition: .25s; }
+              html body #root .App .admin .admin-news-article .photo-load:hover:after {
+                opacity: 0; }
+              html body #root .App .admin .admin-news-article .photo-load:hover:before {
+                opacity: 1; }
+        html body #root .App .footer {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          box-sizing: border-box;
+          padding: 50px 100px 25px;
+          background: #151532;
+          box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.03);
+          color: white; }
+          html body #root .App .footer .width-layer {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%; }
+            html body #root .App .footer .width-layer .footer-container {
+              width: 100%;
+              display: flex;
+              align-items: flex-start;
+              justify-content: space-between;
+              box-sizing: border-box;
+              position: relative; }
+              html body #root .App .footer .width-layer .footer-container .logo {
+                position: relative;
+                font-family: "Catamaran-Bold";
+                font-style: normal;
+                line-height: 41px;
+                font-size: 30px;
+                letter-spacing: 4px;
+                text-transform: uppercase;
+                color: #FFFFFF; }
+                html body #root .App .footer .width-layer .footer-container .logo a {
+                  color: inherit;
+                  text-decoration: none; }
+                  html body #root .App .footer .width-layer .footer-container .logo a .dots {
+                    position: absolute;
+                    left: -50px; }
+              html body #root .App .footer .width-layer .footer-container .links ul {
+                padding: 0;
+                list-style: none; }
+                html body #root .App .footer .width-layer .footer-container .links ul li {
+                  line-height: 21px;
+                  font-size: 14px;
+                  color: #FFFFFF;
+                  opacity: 0.7;
+                  margin-bottom: 20px; }
+                  html body #root .App .footer .width-layer .footer-container .links ul li a {
+                    text-decoration: none;
+                    color: inherit; }
+              html body #root .App .footer .width-layer .footer-container .more-info ul {
+                padding: 0;
+                list-style: none; }
+                html body #root .App .footer .width-layer .footer-container .more-info ul li {
+                  line-height: 21px;
+                  font-size: 14px;
+                  color: #FFFFFF;
+                  opacity: 0.7;
+                  margin-bottom: 20px; }
+                  html body #root .App .footer .width-layer .footer-container .more-info ul li:first-child {
+                    text-transform: uppercase; }
+                  html body #root .App .footer .width-layer .footer-container .more-info ul li a {
+                    text-decoration: none;
+                    color: inherit; }
+              html body #root .App .footer .width-layer .footer-container .more-documents ul {
+                padding: 0;
+                list-style: none; }
+                html body #root .App .footer .width-layer .footer-container .more-documents ul li {
+                  line-height: 21px;
+                  font-size: 14px;
+                  color: #FFFFFF;
+                  opacity: 0.7;
+                  margin-bottom: 20px; }
+                  html body #root .App .footer .width-layer .footer-container .more-documents ul li:first-child {
+                    text-transform: uppercase; }
+                  html body #root .App .footer .width-layer .footer-container .more-documents ul li a {
+                    text-decoration: none;
+                    color: #FFFFFF;
+                    transition: .25s; }
+                    html body #root .App .footer .width-layer .footer-container .more-documents ul li a:hover {
+                      color: white; }
+              html body #root .App .footer .width-layer .footer-container .socials ul {
+                list-style: none;
+                padding: 0;
+                color: #ACACAC; }
+                html body #root .App .footer .width-layer .footer-container .socials ul > li ol {
+                  list-style: none;
+                  padding: 0;
+                  margin-top: 25px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: flex-start; }
+                  html body #root .App .footer .width-layer .footer-container .socials ul > li ol li {
+                    margin-right: 35px;
+                    transition: .25s;
+                    cursor: pointer;
+                    font-size: 1.4em; }
+                    html body #root .App .footer .width-layer .footer-container .socials ul > li ol li:last-child {
+                      margin-right: 0; }
+                    html body #root .App .footer .width-layer .footer-container .socials ul > li ol li:first-child {
+                      margin-left: 2px; }
+                    html body #root .App .footer .width-layer .footer-container .socials ul > li ol li:hover {
+                      color: white; }
+              html body #root .App .footer .width-layer .footer-container:after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                background: #FFFFFF;
+                mix-blend-mode: normal;
+                opacity: 0.1;
+                height: 1px;
+                bottom: 0;
+                left: 0; }
+            html body #root .App .footer .width-layer .copyright-container {
+              margin-top: 25px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: #ACACAC;
+              mix-blend-mode: normal;
+              opacity: 0.5; }
+              html body #root .App .footer .width-layer .copyright-container i {
+                margin-bottom: -2px;
+                margin-right: 5px; }
+        @media screen and (min-width: 1441px) {
+          html body #root .App .width-layer {
+            width: 1440px !important; } }
+        html body #root .App .hide-by-admin {
+          opacity: 0;
+          z-index: -10; }
+
+.fade-enter {
+  opacity: 0.5; }
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in; }
+
+.fade-exit {
+  opacity: .5; }
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in; }

@@ -1,0 +1,121 @@
+@import "../vars.scss";
+
+.documents{
+
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding: 0px 100px;
+
+  //color: white;
+  .photo-layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+    background:  rgba(17, 36, 145, 1) no-repeat center 0px;
+    background-size: cover;
+    z-index: 1;
+    
+    &:before{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #171991;
+      opacity: 0.9;
+      //background: #000;
+    }
+  }
+  .width-layer {
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    //position: relative;
+
+    .container{
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      padding-top: 150px;
+      position: relative;
+
+
+      .miniHead{
+        width: 20%;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        left: 0;
+
+        .nav-block{
+          background: #FFFFFF;
+          border-radius: 4px;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-sizing: border-box;
+          padding: 36px 0px;
+          margin-bottom: 25px;
+          cursor: pointer;
+          transition: .25s;
+          &:hover{
+            transform: scale(1.02);
+          }
+
+
+          .dot{
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: #BDBDBD;
+            margin-right: 20px;
+            margin-left: 20px;
+          }
+          .active-dot{
+            background: #2C6EDE;
+          }
+          .nav-name{
+            padding-right: 20px;
+            width: 65%;
+          }
+        }
+      }
+      .content{
+        width: 76%;
+        background: white;
+        box-sizing: border-box;
+        border-radius: 4px;
+        padding: 50px;
+
+        h2{
+          line-height: 52px;
+          font-size: 41px;
+          //text-align: center;
+          font-family: $Ubuntu-Medium;
+          color: #171991;
+          margin-top: 0;
+        }
+        p{
+          line-height: 30px;
+          font-size: 18px;
+
+          color: #333333;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,191 @@
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+.intro {
+  background: #112491 no-repeat center 0px;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding: 0px 100px;
+  color: white; }
+  .intro .width-layer {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh; }
+    .intro .width-layer .left {
+      flex: 55%;
+      box-sizing: border-box;
+      position: relative; }
+      .intro .width-layer .left .dots {
+        position: absolute;
+        top: 45px;
+        right: 50%;
+        z-index: 0; }
+      .intro .width-layer .left h1 {
+        position: relative;
+        z-index: 2;
+        font-style: normal;
+        font-family: "Ubuntu-Medium";
+        line-height: 52px;
+        font-size: 41px; }
+      .intro .width-layer .left p {
+        width: 60%;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 26px;
+        font-size: 16px; }
+      .intro .width-layer .left .box-input {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 40px; }
+        .intro .width-layer .left .box-input input {
+          background: #FFFFFF;
+          border-radius: 5px;
+          padding: 16px 30px 16px 16px;
+          box-sizing: border-box;
+          border: 0px solid transparent;
+          font-style: normal;
+          font-weight: normal;
+          line-height: normal;
+          width: 300px;
+          font-size: 16px;
+          outline: 0; }
+          .intro .width-layer .left .box-input input::placeholder {
+            font-size: 16px;
+            color: rgba(0, 3, 128, 0.44); }
+        .intro .width-layer .left .box-input .btn-reg {
+          background: #134DAB;
+          border-radius: 5px;
+          width: 200px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 15px;
+          box-sizing: border-box;
+          color: white;
+          font-style: normal;
+          font-weight: normal;
+          line-height: normal;
+          font-size: 18px;
+          margin-left: -25px;
+          cursor: pointer;
+          transition: .25s; }
+    .intro .width-layer .right {
+      flex: 45%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end; }
+      .intro .width-layer .right .img-svg-logo {
+        width: 100%;
+        height: 100%;
+        animation: float 6s ease-in-out infinite;
+        transform: translatey(0px);
+        backface-visibility: hidden; }
+        .intro .width-layer .right .img-svg-logo .platforma {
+          -webkit-transform-origin: 50px 50px;
+          -ms-transform-origin: 50px 50px;
+          transform-origin: 50% 50%;
+          animation: slowly 10s ease-in-out infinite; }
+        .intro .width-layer .right .img-svg-logo .bitok {
+          -webkit-transform-origin: 50px 50px;
+          -ms-transform-origin: 50px 50px;
+          transform-origin: 50% 50%;
+          animation: rotate 12s ease-in-out infinite; }
+    .intro .width-layer .bottom {
+      flex: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      position: relative;
+      padding: 40px 0; }
+      .intro .width-layer .bottom p {
+        position: absolute;
+        margin-top: -8px;
+        left: 0;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 16px;
+        text-transform: uppercase; }
+      .intro .width-layer .bottom .box-values {
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .intro .width-layer .bottom .box-values .values {
+          margin-right: 80px; }
+          .intro .width-layer .bottom .box-values .values .name {
+            font-style: normal;
+            font-weight: normal;
+            line-height: normal;
+            font-size: 16px;
+            opacity: 0.67; }
+          .intro .width-layer .bottom .box-values .values .value {
+            margin-top: 8px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: normal;
+            font-size: 16px; }
+          .intro .width-layer .bottom .box-values .values:last-child {
+            margin-right: 0; }
+      .intro .width-layer .bottom:before {
+        content: '';
+        position: absolute;
+        width: 200%;
+        height: 2px;
+        background: #FFFFFF;
+        opacity: 0.2;
+        top: 0;
+        left: 0; }
+
+@keyframes float {
+  0% {
+    backface-visibility: hidden;
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.6));
+    transform: translatey(0px); }
+  50% {
+    backface-visibility: hidden;
+    filter: drop-shadow(0 25px 15px rgba(0, 0, 0, 0.2));
+    transform: translatey(-20px); }
+  100% {
+    backface-visibility: hidden;
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.6));
+    transform: translatey(0px); } }
+
+@keyframes rotate {
+  0% {
+    backface-visibility: hidden;
+    transform: translatey(0px) scale(1); }
+  50% {
+    backface-visibility: hidden;
+    transform: translatey(15px) scale(1.1); }
+  100% {
+    backface-visibility: hidden;
+    transform: translatey(0px) scale(1); } }
+
+@keyframes slowly {
+  0% {
+    backface-visibility: hidden;
+    transform: translatey(0px); }
+  50% {
+    backface-visibility: hidden;
+    transform: translatey(-15px); }
+  100% {
+    backface-visibility: hidden;
+    transform: translatey(0px); } }

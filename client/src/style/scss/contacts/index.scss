@@ -1,0 +1,299 @@
+@import "../vars.scss";
+
+.contacts{
+  background:  rgba(17, 36, 145, 1) no-repeat center 0px;
+  background-size: cover;
+  //min-height: calc(100vh - 298px);
+  min-height: 80vh;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  //align-items: flex-end;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding: 0px 100px;
+  color: white;
+  .width-layer {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    //min-height: calc(100vh - 298px);
+    min-height: 80vh;
+
+    .left {
+      flex: 55%;
+      box-sizing: border-box;
+      //padding-left: 50px;
+      //align-self: center;
+      position: relative;
+      .dots {
+        position: absolute;
+        top: 45px;
+        right: 50%;
+        z-index: 0;
+      }
+      h1 {
+        position: relative;
+        z-index: 2;
+        //width: 80%;
+        font-style: normal;
+        font-family: $Ubuntu-Medium;
+        //font-weight: 500;
+        line-height: 52px;
+        font-size: 41px;
+      }
+      p {
+        font-family: $Ubuntu-Light;
+
+        width: 60%;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 26px;
+        font-size: 16px;
+      }
+      .contact-form {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .box-input {
+          flex: 45%;
+          width: 45%;
+          max-width: 45%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          margin-top: 40px;
+          position: relative;
+          margin-bottom: 40px;
+          input {
+            background: transparent;
+            padding: 10px 30px 10px 16px;
+            box-sizing: border-box;
+            border: 0px solid transparent;
+            font-style: normal;
+            font-weight: normal;
+            line-height: normal;
+            width: 100%;
+            font-size: 16px;
+            font-family: $Ubuntu-Regular;
+            color: white;
+            outline: 0;
+            border-bottom: 2px solid rgba(255, 255, 255, .6);
+
+            &::placeholder {
+              font-size: 16px;
+              color: white;
+              opacity: 0;
+              transition: .25s;
+            }
+            &:active, &:focus {
+              border-bottom: 2px solid rgba(255, 255, 255, 1);
+              &::placeholder {
+                font-size: 16px;
+                //color: rgba(0, 3, 128, 0.44);
+                color: white;
+                opacity: 0.7;
+              }
+            }
+          }
+          label{
+            position: absolute;
+            transition: .25s;
+            font-size: 16px;
+            cursor: text;
+            left: 15px;
+            top: 10px;
+            opacity: .8;
+          }
+          .label-active{
+            left: 0px;
+            top: -15px;
+            cursor: pointer;
+            font-size: 14px;
+          }
+        }
+
+        .box-area{
+          width: 100%;
+          //overflow-x: hidden;
+          position: relative;
+          textarea{
+            overflow: scroll;
+            overflow-x: hidden;
+            &::-webkit-scrollbar{
+              display: none;
+              background: transparent;
+              width: 0px;
+            }
+            &::-webkit-scrollbar-thumb {
+              background: #FF0000;
+            }
+            width: 100%;
+            //box-sizing: content-box;
+            max-height: 300px;
+            height: 40px;
+            //resize: vertical;
+            resize: none;
+            background: transparent;
+            padding: 10px 17px 10px 10px;
+            //padding-right: 17px;
+            box-sizing: border-box;
+            border: 0px solid transparent;
+            font-style: normal;
+            font-weight: normal;
+            line-height: normal;
+            font-size: 16px;
+            font-family: $Ubuntu-Regular;
+            color: white;
+            outline: 0;
+            border-bottom: 2px solid rgba(255, 255, 255, .6);
+            overflow: unset;
+
+
+            &::placeholder {
+              font-size: 16px;
+              color: white;
+              opacity: 0;
+              transition: .25s;
+            }
+            &:active, &:focus {
+              border-bottom: 2px solid rgba(255, 255, 255, 1);
+              &::placeholder {
+                font-size: 16px;
+                //color: rgba(0, 3, 128, 0.44);
+                color: white;
+                opacity: 0.7;
+              }
+            }
+          }
+          label{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            transition: .25s;
+            font-size: 16px;
+            cursor: text;
+            opacity: .8;
+
+          }
+          .label-active{
+            left: 0px;
+            top: -20px;
+            cursor: pointer;
+            font-size: 14px;
+          }
+        }
+      }
+      .btn-send{
+        margin-top: 30px;
+        box-sizing: border-box;
+        width: 200px;
+        padding: 20px;
+        transition: .25s;
+        background: #134DAB;
+        border-radius: 5px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 18px;
+        font-family: $Ubuntu-Light;
+
+        &:hover{}
+      }
+    }
+    .right {
+      flex: 45%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .img-svg-logo {
+        width: 100%;
+        height: 100%;
+        //filter: drop-shadow(0 5px 15px rgba(0,0,0,0.6));
+        animation: float 6s ease-in-out infinite;
+        transform: translatey(0px);
+        backface-visibility: hidden;
+        //position: relative;
+        .platforma {
+          -webkit-transform-origin: 50px 50px;
+          -ms-transform-origin: 50px 50px;
+          transform-origin: 50% 50%;
+          animation: slowly 10s ease-in-out infinite;
+        }
+        .bitok {
+          -webkit-transform-origin: 50px 50px;
+          -ms-transform-origin: 50px 50px;
+          transform-origin: 50% 50%;
+          animation: rotate 12s ease-in-out infinite;
+        }
+      }
+    }
+  }
+}
+
+
+@keyframes float {
+  0% {
+    //box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    backface-visibility: hidden;
+    filter: drop-shadow(0 5px 15px rgba(0,0,0,0.6));
+    transform: translatey(0px);
+  }
+  50% {
+    //box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+    backface-visibility: hidden;
+    filter: drop-shadow(0 25px 15px rgba(0,0,0,0.2));
+    transform: translatey(-20px);
+  }
+  100% {
+    //box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    backface-visibility: hidden;
+    filter: drop-shadow(0 5px 15px rgba(0,0,0,0.6));
+    transform: translatey(0px)
+  }
+}
+@keyframes rotate {
+  0% {
+    backface-visibility: hidden;
+    transform:  translatey(0px) scale(1);
+
+
+  }
+  50% {
+    backface-visibility: hidden;
+    transform: translatey(15px) scale(1.1);
+
+
+  }
+  100% {
+    backface-visibility: hidden;
+    transform: translatey(0px) scale(1);
+  }
+}
+@keyframes slowly {
+  0% {
+    backface-visibility: hidden;
+    transform:  translatey(0px);
+
+
+  }
+  50% {
+    backface-visibility: hidden;
+    transform: translatey(-15px);
+
+
+  }
+  100% {
+    backface-visibility: hidden;
+    transform: translatey(0px);
+  }
+}
