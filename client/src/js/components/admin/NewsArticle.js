@@ -179,7 +179,9 @@ export default class NewsArticle extends Component {
                                 stateForSave.photo = fileName;
                                 this.props.allFunctions('upload-file',{file: formData});
                             }
-                            this.props.allFunctions('add-news',{news: stateForSave});
+                            this.props.allFunctions('add-news',{news: stateForSave},(data)=>{
+                                console.log(data);
+                            });
 
                         }}>Добавить</div>
                         :
@@ -210,6 +212,7 @@ export default class NewsArticle extends Component {
 
         this.props.allFunctions('Update News By Id',{news: stateForSave, id: this.props.match.params.id }, (res)=>{
             console.log(res);
+// eslint-disable-next-line
             if(res.ok == 1){
                 alert('Saved');
             }
@@ -219,6 +222,7 @@ export default class NewsArticle extends Component {
     deleteNews(){
         this.props.allFunctions('Delete News By Id',{id: this.props.match.params.id }, (res)=>{
             console.log(res);
+// eslint-disable-next-line
             if(res.ok == 1){
                 alert('Deleted');
                 this.props.history.push('/adminka/news');

@@ -160,7 +160,7 @@ export function allFunctions(type, data, options) {
                     axios.post(`${QUERY_URL}/add-news`, {data: data.news})
                         .then((res) => {
                             // console.log(res);
-                            // options(res);
+                            options(res.data);
                             dispatch({type: front.REQ_OFF});
 
                         })

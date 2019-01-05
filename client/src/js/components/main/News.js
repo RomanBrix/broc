@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import moment from "moment";
-import {NavLink} from "react-router-dom";
+// import {NavLink} from "react-router-dom";
 
 export default class News extends Component {
     constructor(props){

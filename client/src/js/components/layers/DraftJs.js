@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { EditorState, RichUtils, DefaultDraftBlockRenderMap, convertToRaw, convertFromRaw} from 'draft-js';
+import { EditorState, RichUtils, convertToRaw, convertFromRaw} from 'draft-js';
 import Editor, { composeDecorators } from 'draft-js-plugins-editor';
 // import {
 //     convertFromRaw,
@@ -24,6 +24,7 @@ const focusPlugin = createFocusPlugin();
 const resizeablePlugin = createResizeablePlugin();
 const blockDndPlugin = createBlockDndPlugin();
 const alignmentPlugin = createAlignmentPlugin();
+// eslint-disable-next-line
 const { AlignmentTool } = alignmentPlugin;
 
 const decorator = composeDecorators(
