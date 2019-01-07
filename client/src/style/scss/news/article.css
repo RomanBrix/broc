@@ -1,0 +1,57 @@
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+.content-box {
+  width: 100%; }
+  .content-box .photo-layer-a {
+    position: absolute;
+    width: 100%;
+    background: white no-repeat center;
+    background-size: contain;
+    height: 70vh;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    overflow: hidden; }
+    .content-box .photo-layer-a:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(17, 36, 145, 0.9); }
+    .content-box .photo-layer-a .figure {
+      width: 100px;
+      height: 100px;
+      transition: .25s;
+      margin-top: 0;
+      margin-right: 0;
+      margin-bottom: 0;
+      margin-left: 0;
+      position: absolute; }
+  .content-box .head {
+    position: relative;
+    z-index: 2;
+    height: calc(70vh - 150px);
+    width: 100%;
+    color: white;
+    box-sizing: border-box;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .content-box .content {
+    font-family: "Ubuntu-Regular";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 30px;
+    font-size: 18px;
+    color: #333333; }

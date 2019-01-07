@@ -51,7 +51,7 @@ class App extends Component {
 
                                   <Route exact path={`/about`} render={ props => <About allFunctions={this.props.allFunctions} animateScroll={animateScroll}  {...props}/>}/>
 
-                                  <Route exact path={`/news`} render={ props => <News reduxStore={reduxStore} allFunctions={this.props.allFunctions} animateScroll={animateScroll}  {...props}/>}/>
+                                  <Route  path={`/news`} render={ props => <News reduxStore={reduxStore} allFunctions={this.props.allFunctions} animateScroll={animateScroll}  {...props}/>}/>
 
                                   <Route exact path={`/contacts`} render={ props => <Contacts allFunctions={this.props.allFunctions} animateScroll={animateScroll}  {...props}/>}/>
                                   <Route exact path={`/documents/:doc`} render={ props => <Documents allFunctions={this.props.allFunctions} animateScroll={animateScroll}  {...props}/>}/>

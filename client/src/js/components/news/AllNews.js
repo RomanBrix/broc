@@ -84,16 +84,17 @@ export default class AllNews extends Component {
 
     render() {
         const { news } = this.props.reduxStore;
+        const { history } = this.props;
         const { filter, filteredNews } = this.state;
-        console.log('News for filter: ');
-        console.log(filteredNews);
+        // console.log('News for filter: ');
+        // console.log(filteredNews);
 
         return (
             <div className="news">
                 <div className="photo-layer" style={{backgroundImage: `url(./src/main/mainLayer.svg)`}}/>
                 <div className="width-layer">
-                    <AllNewsIntro news={ news } getTag={this.getTag.bind(this)} filter={ filter } filteredNews={ filteredNews } filterFunc={ this.filterFunc.bind(this) }/>
-                    <AllNewsContainer news={ news } getTag={this.getTag.bind(this)} filter={ filter } filteredNews={filteredNews}/>
+                    <AllNewsIntro news={ news } getTag={this.getTag.bind(this)} filter={ filter } history={ history } filteredNews={ filteredNews } filterFunc={ this.filterFunc.bind(this) }/>
+                    <AllNewsContainer news={ news } getTag={this.getTag.bind(this)} filter={ filter } history={ history }  filteredNews={filteredNews}/>
                 </div>
             </div>
         )

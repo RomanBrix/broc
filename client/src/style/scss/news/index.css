@@ -16,7 +16,16 @@
 @import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
 @import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
 @import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
-.news {
+@import url(../fonts/Ubuntu/Ubuntu-Bold/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Light/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Medium/fonts.css);
+@import url(../fonts/Ubuntu/Ubuntu-Regular/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Black/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Bold/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Light/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Medium/fonts.css);
+@import url(../fonts/Catamaran/Catamaran-Regular/fonts.css);
+.news, .a-news {
   background: #E5E5E5;
   min-height: 100vh;
   width: 100%;
@@ -29,7 +38,7 @@
   padding: 0px 100px;
   color: white;
   position: relative; }
-  .news .photo-layer {
+  .news .photo-layer, .a-news .photo-layer {
     position: absolute;
     width: 100%;
     height: 80vh;
@@ -38,7 +47,7 @@
     z-index: 1;
     top: 0;
     left: 0; }
-  .news .width-layer {
+  .news .width-layer, .a-news .width-layer {
     position: relative;
     z-index: 2;
     width: 100%;
@@ -48,7 +57,7 @@
     justify-content: center;
     flex-wrap: wrap;
     min-height: 100vh; }
-    .news .width-layer .intro {
+    .news .width-layer .intro, .a-news .width-layer .intro {
       min-height: calc(80vh - 150px);
       box-sizing: border-box;
       width: 100%;
@@ -56,24 +65,24 @@
       display: flex;
       align-items: flex-start;
       justify-content: space-between; }
-      .news .width-layer .intro .left, .news .width-layer .intro .right {
+      .news .width-layer .intro .left, .news .width-layer .intro .right, .a-news .width-layer .intro .left, .a-news .width-layer .intro .right {
         width: 47%; }
-      .news .width-layer .intro .left h2 {
+      .news .width-layer .intro .left h2, .a-news .width-layer .intro .left h2 {
         font-weight: 500;
         line-height: 52px;
         font-size: 41px;
         font-family: "Ubuntu-Medium";
         color: #FFFFFF; }
-      .news .width-layer .intro .left .box .checkboxes {
+      .news .width-layer .intro .left .box .checkboxes, .a-news .width-layer .intro .left .box .checkboxes {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start; }
-        .news .width-layer .intro .left .box .checkboxes .check {
+        .news .width-layer .intro .left .box .checkboxes .check, .a-news .width-layer .intro .left .box .checkboxes .check {
           margin-bottom: 15px; }
-          .news .width-layer .intro .left .box .checkboxes .check input {
+          .news .width-layer .intro .left .box .checkboxes .check input, .a-news .width-layer .intro .left .box .checkboxes .check input {
             display: none; }
-          .news .width-layer .intro .left .box .checkboxes .check label {
+          .news .width-layer .intro .left .box .checkboxes .check label, .a-news .width-layer .intro .left .box .checkboxes .check label {
             cursor: pointer;
             position: relative;
             margin: auto;
@@ -81,7 +90,7 @@
             height: 18px;
             -webkit-tap-highlight-color: transparent;
             transform: translate3d(0, 0, 0); }
-            .news .width-layer .intro .left .box .checkboxes .check label:before {
+            .news .width-layer .intro .left .box .checkboxes .check label:before, .a-news .width-layer .intro .left .box .checkboxes .check label:before {
               content: "";
               position: absolute;
               top: -10px;
@@ -92,7 +101,7 @@
               background: rgba(255, 255, 255, 0.08);
               opacity: 0;
               transition: opacity .2s ease; }
-            .news .width-layer .intro .left .box .checkboxes .check label svg {
+            .news .width-layer .intro .left .box .checkboxes .check label svg, .a-news .width-layer .intro .left .box .checkboxes .check label svg {
               margin-bottom: -4px;
               margin-right: 15px;
               position: relative;
@@ -104,26 +113,26 @@
               stroke-width: 1.5;
               transform: translate3d(0, 0, 0);
               transition: all .2s ease; }
-              .news .width-layer .intro .left .box .checkboxes .check label svg path {
+              .news .width-layer .intro .left .box .checkboxes .check label svg path, .a-news .width-layer .intro .left .box .checkboxes .check label svg path {
                 stroke-dasharray: 60;
                 stroke-dashoffset: 0; }
-              .news .width-layer .intro .left .box .checkboxes .check label svg polyline {
+              .news .width-layer .intro .left .box .checkboxes .check label svg polyline, .a-news .width-layer .intro .left .box .checkboxes .check label svg polyline {
                 stroke-dasharray: 22;
                 stroke-dashoffset: 66; }
-            .news .width-layer .intro .left .box .checkboxes .check label:hover:before {
+            .news .width-layer .intro .left .box .checkboxes .check label:hover:before, .a-news .width-layer .intro .left .box .checkboxes .check label:hover:before {
               opacity: 1; }
-            .news .width-layer .intro .left .box .checkboxes .check label:hover svg {
+            .news .width-layer .intro .left .box .checkboxes .check label:hover svg, .a-news .width-layer .intro .left .box .checkboxes .check label:hover svg {
               stroke: #4285F4; }
-          .news .width-layer .intro .left .box .checkboxes .check input:checked + label svg {
+          .news .width-layer .intro .left .box .checkboxes .check input:checked + label svg, .a-news .width-layer .intro .left .box .checkboxes .check input:checked + label svg {
             stroke: #4285F4; }
-          .news .width-layer .intro .left .box .checkboxes .check input:checked + label path {
+          .news .width-layer .intro .left .box .checkboxes .check input:checked + label path, .a-news .width-layer .intro .left .box .checkboxes .check input:checked + label path {
             stroke-dashoffset: 60;
             transition: all .3s linear; }
-          .news .width-layer .intro .left .box .checkboxes .check input:checked + label polyline {
+          .news .width-layer .intro .left .box .checkboxes .check input:checked + label polyline, .a-news .width-layer .intro .left .box .checkboxes .check input:checked + label polyline {
             stroke-dashoffset: 42;
             transition: all .2s linear;
             transition-delay: .15s; }
-      .news .width-layer .intro .left .box .search {
+      .news .width-layer .intro .left .box .search, .a-news .width-layer .intro .left .box .search {
         flex: 90%;
         width: 90%;
         max-width: 90%;
@@ -133,7 +142,7 @@
         margin-top: 40px;
         position: relative;
         margin-bottom: 40px; }
-        .news .width-layer .intro .left .box .search input {
+        .news .width-layer .intro .left .box .search input, .a-news .width-layer .intro .left .box .search input {
           background: transparent;
           padding: 10px 30px 10px 16px;
           box-sizing: border-box;
@@ -147,18 +156,18 @@
           color: white;
           outline: 0;
           border-bottom: 2px solid rgba(255, 255, 255, 0.6); }
-          .news .width-layer .intro .left .box .search input::placeholder {
+          .news .width-layer .intro .left .box .search input::placeholder, .a-news .width-layer .intro .left .box .search input::placeholder {
             font-size: 16px;
             color: white;
             opacity: 0;
             transition: .25s; }
-          .news .width-layer .intro .left .box .search input:active, .news .width-layer .intro .left .box .search input:focus {
+          .news .width-layer .intro .left .box .search input:active, .news .width-layer .intro .left .box .search input:focus, .a-news .width-layer .intro .left .box .search input:active, .a-news .width-layer .intro .left .box .search input:focus {
             border-bottom: 2px solid white; }
-            .news .width-layer .intro .left .box .search input:active::placeholder, .news .width-layer .intro .left .box .search input:focus::placeholder {
+            .news .width-layer .intro .left .box .search input:active::placeholder, .news .width-layer .intro .left .box .search input:focus::placeholder, .a-news .width-layer .intro .left .box .search input:active::placeholder, .a-news .width-layer .intro .left .box .search input:focus::placeholder {
               font-size: 16px;
               color: white;
               opacity: 0.7; }
-        .news .width-layer .intro .left .box .search label {
+        .news .width-layer .intro .left .box .search label, .a-news .width-layer .intro .left .box .search label {
           position: absolute;
           transition: .25s;
           font-size: 16px;
@@ -166,24 +175,24 @@
           left: 15px;
           top: 10px;
           opacity: .8; }
-        .news .width-layer .intro .left .box .search .label-active {
+        .news .width-layer .intro .left .box .search .label-active, .a-news .width-layer .intro .left .box .search .label-active {
           left: 0px;
           top: -15px;
           cursor: pointer;
           font-size: 14px; }
-      .news .width-layer .intro .right {
+      .news .width-layer .intro .right, .a-news .width-layer .intro .right {
         position: relative; }
-        .news .width-layer .intro .right .dots {
+        .news .width-layer .intro .right .dots, .a-news .width-layer .intro .right .dots {
           position: absolute;
           right: 40%;
           top: 20px; }
-        .news .width-layer .intro .right h1 {
+        .news .width-layer .intro .right h1, .a-news .width-layer .intro .right h1 {
           font-weight: 500;
           line-height: 52px;
           font-size: 41px;
           font-family: "Ubuntu-Medium";
           color: #FFFFFF; }
-        .news .width-layer .intro .right .intro-news .intro-article-news {
+        .news .width-layer .intro .right .intro-news .intro-article-news, .a-news .width-layer .intro .right .intro-news .intro-article-news {
           display: flex;
           flex-direction: column;
           align-items: flex-start;
@@ -191,12 +200,12 @@
           margin-bottom: 40px;
           transition: .25s;
           cursor: pointer; }
-          .news .width-layer .intro .right .intro-news .intro-article-news .top {
+          .news .width-layer .intro .right .intro-news .intro-article-news .top, .a-news .width-layer .intro .right .intro-news .intro-article-news .top {
             display: flex;
             align-items: center;
             justify-content: flex-start;
             margin-bottom: 8px; }
-            .news .width-layer .intro .right .intro-news .intro-article-news .top .tag {
+            .news .width-layer .intro .right .intro-news .intro-article-news .top .tag, .a-news .width-layer .intro .right .intro-news .intro-article-news .top .tag {
               padding: 6px 16px;
               font-family: "Ubuntu-Medium";
               background: #134DAB;
@@ -206,7 +215,7 @@
               line-height: normal;
               font-size: 12px;
               letter-spacing: 0.5px; }
-            .news .width-layer .intro .right .intro-news .intro-article-news .top .date {
+            .news .width-layer .intro .right .intro-news .intro-article-news .top .date, .a-news .width-layer .intro .right .intro-news .intro-article-news .top .date {
               font-style: normal;
               font-weight: normal;
               line-height: normal;
@@ -214,13 +223,13 @@
               letter-spacing: 0.5px;
               color: #FFFFFF;
               margin-left: 12px; }
-          .news .width-layer .intro .right .intro-news .intro-article-news .title {
+          .news .width-layer .intro .right .intro-news .intro-article-news .title, .a-news .width-layer .intro .right .intro-news .intro-article-news .title {
             line-height: 30px;
             font-size: 18px;
             color: #FFFFFF; }
-          .news .width-layer .intro .right .intro-news .intro-article-news:hover {
+          .news .width-layer .intro .right .intro-news .intro-article-news:hover, .a-news .width-layer .intro .right .intro-news .intro-article-news:hover {
             transform: scale(1.01); }
-    .news .width-layer .container {
+    .news .width-layer .container, .a-news .width-layer .container {
       width: 100%;
       display: flex;
       align-items: flex-start;
@@ -228,7 +237,7 @@
       flex-wrap: wrap;
       box-sizing: border-box;
       padding: 50px 0; }
-      .news .width-layer .container .article-news {
+      .news .width-layer .container .article-news, .a-news .width-layer .container .article-news {
         max-width: 30%;
         flex: 30%;
         width: 30%;
@@ -241,7 +250,7 @@
         cursor: pointer;
         transition: .25s;
         overflow: hidden; }
-        .news .width-layer .container .article-news .img {
+        .news .width-layer .container .article-news .img, .a-news .width-layer .container .article-news .img {
           width: 100%;
           height: 300px;
           background: rgba(224, 224, 224, 0.6) no-repeat center 0;
@@ -249,20 +258,20 @@
           transition: .55s;
           position: relative;
           z-index: 1; }
-        .news .width-layer .container .article-news .content {
+        .news .width-layer .container .article-news .content, .a-news .width-layer .container .article-news .content {
           box-sizing: border-box;
           padding: 25px 30px;
           transition: .25s;
           position: relative;
           z-index: 2;
           background: white; }
-          .news .width-layer .container .article-news .content .top {
+          .news .width-layer .container .article-news .content .top, .a-news .width-layer .container .article-news .content .top {
             display: flex;
             align-items: center;
             justify-content: flex-start;
             margin-bottom: 8px;
             transition: .25s; }
-            .news .width-layer .container .article-news .content .top .tag {
+            .news .width-layer .container .article-news .content .top .tag, .a-news .width-layer .container .article-news .content .top .tag {
               padding: 6px 16px;
               font-family: "Ubuntu-Medium";
               background: #134DAB;
@@ -273,7 +282,7 @@
               font-size: 12px;
               letter-spacing: 0.5px;
               transition: .25s; }
-            .news .width-layer .container .article-news .content .top .date {
+            .news .width-layer .container .article-news .content .top .date, .a-news .width-layer .container .article-news .content .top .date {
               font-style: normal;
               font-weight: normal;
               line-height: normal;
@@ -283,7 +292,7 @@
               margin-left: 12px;
               font-family: "Ubuntu-Light";
               transition: .25s; }
-          .news .width-layer .container .article-news .content .title {
+          .news .width-layer .container .article-news .content .title, .a-news .width-layer .container .article-news .content .title {
             font-weight: 500;
             line-height: 28px;
             font-size: 20px;
@@ -291,7 +300,7 @@
             font-family: "Ubuntu-Medium";
             margin-top: 25px;
             transition: .25s; }
-          .news .width-layer .container .article-news .content p {
+          .news .width-layer .container .article-news .content p, .a-news .width-layer .container .article-news .content p {
             font-style: normal;
             font-weight: normal;
             line-height: 24px;
@@ -299,5 +308,58 @@
             color: #999999;
             font-family: "Ubuntu-Regular";
             transition: .25s; }
-        .news .width-layer .container .article-news:hover .img {
+        .news .width-layer .container .article-news:hover .img, .a-news .width-layer .container .article-news:hover .img {
           transform: scale(1.15); }
+
+.a-news {
+  background: white; }
+  .a-news .width-layer {
+    position: initial; }
+    .a-news .width-layer .content-box {
+      width: 100%; }
+      .a-news .width-layer .content-box .photo-layer-a {
+        position: absolute;
+        width: 100%;
+        background: white no-repeat center;
+        background-size: contain;
+        height: 70vh;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        overflow: hidden; }
+        .a-news .width-layer .content-box .photo-layer-a:before {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background: rgba(17, 36, 145, 0.9); }
+        .a-news .width-layer .content-box .photo-layer-a .figure {
+          width: 100px;
+          height: 100px;
+          transition: .25s;
+          margin-top: 0;
+          margin-right: 0;
+          margin-bottom: 0;
+          margin-left: 0;
+          position: absolute; }
+      .a-news .width-layer .content-box .head {
+        position: relative;
+        z-index: 2;
+        height: calc(70vh - 150px);
+        width: 100%;
+        color: white;
+        box-sizing: border-box;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+      .a-news .width-layer .content-box .content {
+        font-family: "Ubuntu-Regular";
+        font-style: normal;
+        font-weight: normal;
+        line-height: 30px;
+        font-size: 18px;
+        color: #333333; }

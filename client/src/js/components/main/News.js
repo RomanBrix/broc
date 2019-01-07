@@ -20,19 +20,15 @@ export default class News extends Component {
             );
 
             return <div className="intro-article-news" key={index} onMouseEnter={()=>{
-                // console.log(item.photo);
                 const active = document.getElementsByClassName('news-img-prev-active')[0];
                 const notActive = document.getElementsByClassName('news-img-prev');
                 active.classList.toggle('news-img-prev-active');
                 notActive[index].classList.toggle('news-img-prev-active');
-
-                //
-                //
-                // this.setState({
-                //     imgSrc: item.photo
-                // })
-                // imgSrc = ;
-            }}>
+            }}
+            onClick={()=>{
+                this.props.history.push(`/news/${item._id}`)
+            }}
+            >
                 <div className="top">
                     <div className="tag">
                         {item.tag}
@@ -59,7 +55,9 @@ export default class News extends Component {
                     <div className="intro-news-container">
                         <h2>Последние новости</h2>
                         {news}
-                        <div className="btn-all">Все новости</div>
+                        <div className="btn-all" onClick={()=>{
+                            this.props.history.push(`/news`)
+                        }}>Все новости</div>
                     </div>
                 </div>
             </div>

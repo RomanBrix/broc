@@ -19,12 +19,12 @@ export default class AllNewsContainer extends Component {
 
 
     getAllNews(){
-        const { news, getTag } = this.props;
+        const { news, getTag, history } = this.props;
 
 
 
         return news.map((item, index)=>{
-            return <div className="article-news" key={index}>
+            return <div className="article-news" key={index} onClick={()=>{ history.push(`/news/${item._id}`)}}>
                 <div className="img" style={{backgroundImage: `url(/src/news/${item.photo})`}}/>
 
                 <div className="content">
@@ -45,12 +45,13 @@ export default class AllNewsContainer extends Component {
 
 
     getAllFilterNews(){
-        const { filteredNews, getTag } = this.props;
+        // const { history } = this.props;
+        const { filteredNews, getTag, history } = this.props;
 
 
         if(filteredNews.length > 0) {
             return filteredNews.map((item, index) => {
-                return <div className="article-news" key={index}>
+                return <div className="article-news" key={index} onClick={()=>{ history.push(`/news/${item._id}`)}}>
                     <div className="img" style={{backgroundImage: `url(/src/news/${item.photo})`}}/>
 
                     <div className="content">

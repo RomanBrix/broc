@@ -89,8 +89,9 @@ export default class AllNewsIntro extends Component {
 
 
     sortNews(){
+        const { history } = this.props;
         return this.props.news.slice(0,3).map((item, index)=>{
-            return <div className="intro-article-news" key={index}>
+            return <div className="intro-article-news" key={index} onClick={()=>{ history.push(`/news/${item._id}`)}}>
                 <div className="top">
                     <div className="tag">
                         {this.props.getTag(item.tag)}
@@ -105,10 +106,11 @@ export default class AllNewsIntro extends Component {
     }
 
     sortFilterNews(){
+        const { history } = this.props;
         const { filteredNews } = this.props ;
         if(filteredNews.length > 0 ) {
             return filteredNews.slice(0, 3).map((item, index) => {
-                return <div className="intro-article-news" key={index}>
+                return <div className="intro-article-news" key={index} onClick={()=>{ history.push(`/news/${item._id}`)}}>
                     <div className="top">
                         <div className="tag">
                             {this.props.getTag(item.tag)}

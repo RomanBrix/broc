@@ -116,17 +116,6 @@ export default class DraftJs extends Component {
                         editorState={this.state.editorState}
                         onToggle={this.toggleBlockType.bind(this)}
                     />
-                    {/*<div className="top">*/}
-                        {/*<button onClick={()=>{*/}
-                            {/*this.makeSmth('BOLD')*/}
-                        {/*}}>Bold</button>*/}
-                        {/*<button onClick={()=>{*/}
-                            {/*this.makeSmth('ITALIC')*/}
-                        {/*}}>Italic</button>*/}
-                        {/*<button onClick={()=>{*/}
-                            {/*this.makeSmth('UNDERLINE')*/}
-                        {/*}}>UnderLine</button>*/}
-                    {/*</div>*/}
                 </div>
                 <Editor
                     editorState={this.state.editorState}

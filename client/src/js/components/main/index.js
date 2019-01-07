@@ -13,19 +13,16 @@ export default class Main extends Component {
     }
 
     render() {
-        const { reduxStore } = this.props;
+        const { reduxStore, history } = this.props;
         // console.log(reduxStore);
         // test
         return (
             <div className="main">
-                {/*<button onClick={()=>{*/}
-                    {/*allFunctions('set-default-val', {},()=>{});*/}
-                {/*}}>SET DEF VALUE</button>*/}
                 <Intro />
                 <About/>
                 <Start/>
                 <Help/>
-                <News news={reduxStore.news}/>
+                <News news={reduxStore.news} history={history}/>
             </div>
         )
     }

@@ -1,6 +1,6 @@
 @import "../vars.scss";
 
-.news{
+.news, .a-news{
   //background:  rgba(17, 36, 145, 1) no-repeat center 0px;
   //background-size: cover;
   background: #E5E5E5;
@@ -41,4 +41,14 @@
     @import "allNews.scss";
 
   }
+}
+
+.a-news{
+  background: white;
+
+  .width-layer {
+    position: initial;
+    @import "article.scss";
+  }
+
 }

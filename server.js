@@ -123,6 +123,15 @@ app.get('/api/news/:id', (req,res)=>{
         .then((result)=>{
             res.send(result);
         })
+        .catch((err)=>{
+            console.log('errr');
+            // console.log(err);
+            switch (err.name) {
+                case 'CastError':
+                    res.send(['notFound']);
+                    break;
+            }
+        })
 });
 app.delete('/api/news/:id', (req,res)=>{
     // console.log('u a here');
